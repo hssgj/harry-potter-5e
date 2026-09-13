@@ -1,5 +1,5 @@
 # Matthael — character sheet
-Stav: příprava, před první odehranou scénou. 2026-09-13.
+Stav: Session 001 aktivní; checkpoint 01, 2026-09-13.
 Tento list obsahuje hráčský základ postavy. Budoucí odhalení sem patří až po odehrání.
 
 ## Identita
@@ -11,7 +11,7 @@ Rodina dědí zákazy a obřady; Matthael nezná jejich vysvětlení a do šestn
 Tmavé vlasy, bledší pleť, černá a hluboká zelená.
 Jizva: „od ucha po krk až na liční kost“. Strana a přesný tvar nejsou určené.
 Schválený původ pro úvodní scénu: při rodinném obřadu sáhne pro hada; neúmyslný magický útěk ho poraní a přenese k Prasinkám. Detailní vysvětlení není znalostí postavy.
-Ebenová hůlka s červeným motivem a dračí esencí je zachovaný vzhledový koncept; získání a parametry jsou neurčené, není automaticky ve startovním inventáři.
+Ebenová hůlka s výraznou rudou linií/motivem a dračí esencí byla získána u Ollivandera během Session 001.
 Školní oblečení je zamýšlený vzhled po přijetí, nikoli potvrzené vybavení před příjezdem.
 
 ## Společník — znalost postavy
@@ -32,15 +32,26 @@ STR8 vyjadřuje nižší hrubou sílu, nikoli celkovou neschopnost. CHA10 není 
 
 ## Pilotní mechanický profil
 Vlastní začátečnický profil L1, PB+2. Není D&D Wizard class.
-Maximum HP13; aktuální HP při scéně po zranění zatím neurčeno. AC12, iniciativa+2, pohyb9 m.
+Maximum HP13; aktuální HP10/13 na checkpointu 01. AC12, iniciativa+2, pohyb9 m.
 Záchranné zdatnosti CON a WIS: CON+3, WIS+4. Ostatní saves podle základních modifikátorů.
 Zdatnosti: Acrobatics+4, Perception+4, Survival+4, Insight+4. Pilotní volba odvozená od agility, všímavosti a samostatnosti; žádné nové konkrétní příhody z minulosti tím nejsou vymyšleny.
 Arcana bez zdatnosti: INT+1. Tvrdohlavost neznamená imunitu vůči strachu/ovlivnění.
 Sesílání/kontrola WIS+PB = +4. DC naučené magie12; u vrozených projevů se používají jejich vlastní karty a nevýhoda. Naučená kouzla: žádná.
 Čtyři projevy: výboj, zábrana, přitažení, světlo. Viz SPELLBOOK.
-Žádná automatická hůlka, Basic Cast, blood armor nebo ovládaný teleport.
+Žádný Basic Cast, blood armor nebo ovládaný teleport.
+
+## Aktuální inventář — relevantní
+- ebenová hůlka s dračí esencí a rudou linií/motivem
+- pouzdro/krabička na hůlku
+- černý had je s Matthaelem
+- rodový přívěsek není v inventáři; zůstal podle prologu na ostrově
+
+Fig zaplatil za hůlku; podmínky vrácení peněz nebyly ve hře řečeny.
 
 ## INT a WIS
 INT: studium a pochopení principu. WIS: provedení a soustředění.
 Nejde o dvojitý hod před každým útokem ani součet dvou vlastností.
-Žádné skutečné kostky zatím nebyly hozeny a žádná scéna nebyla odehrána.
+
+## Continuity note
+Při výběru hůlky se krátce nadzvedly lehké předměty a Figův klobouk. Je to potvrzený jednorázový příběhový projev souznění s hůlkou, nikoli ovládnutá levitace ani nově naučené kouzlo.
+Aktuální resume point je v sessions/001_CHECKPOINT_01.md.
