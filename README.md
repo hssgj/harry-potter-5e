@@ -2,14 +2,15 @@
 Harry Potter 5e — world, lore, characters and rules
 
 Samostatná příběhová hra: kostky a checky 5e, učení a boj inspirované Hogwarts Legacy.
-Stav: společně budujeme. Návrh pravidel v0.1 není schválená ani otestovaná finální verze.
+Stav: společně budujeme. Pravidla v0.2 provádějí hráčova rozhodnutí a pověření GM. Matematika zkontrolovaná; vyvážení dosud neotestované.
 
 ## Pro hráče — začni tady
 - [Matthael — character sheet](characters/matthael/CHARACTER_SHEET.md)
 - [Spellbook a bojová sestava](characters/matthael/SPELLBOOK.md)
 - [Svět](world/SETTING.md)
-- [Pravidla v0.1](rules/CORE_v0.1.md)
-- [Příkladové karty kouzel](rules/SPELL_CARDS_v0.1.md)
+- [Pravidla v0.2](rules/CORE_v0.2.md)
+- [Startovní projevy](rules/STARTING_MANIFESTATIONS.md)
+- [Matematika rozdělení](rules/BUILD_MATH.md)
 - [Co ještě rozhodnout](OPEN_QUESTIONS.md)
 - [Kde pokračovat](HANDOFF.md)
 

@@ -1,5 +1,4 @@
 # Pravidla
-[CORE_v0.1.md](CORE_v0.1.md) je hlavní pracovní návrh hybridu.
-[SPELL_CARDS_v0.1.md](SPELL_CARDS_v0.1.md) nabízí několik příkladů pro kontrolu, jak spolu pravidla fungují.
-Schválené: směr 5e checky + Legacy magie a postupné učení.
-Neschválené: konkrétní číselné hodnoty, sestava čtyř kouzel, cooldown místo slotů, obranné reakce, startovní kompetence.
+Aktuálně [CORE_v0.2.md](CORE_v0.2.md) a [STARTING_MANIFESTATIONS.md](STARTING_MANIFESTATIONS.md).
+Matematika a důvody volby: [BUILD_MATH.md](BUILD_MATH.md).
+CORE_v0.1 a SPELL_CARDS_v0.1 jsou historické návrhy. Neudělují postavě kouzla; při rozporu platí v0.2.
