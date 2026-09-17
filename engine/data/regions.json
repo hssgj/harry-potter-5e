@@ -1,0 +1,1 @@
+{"schema_version":1,"note":"Stable region containers only. POIs intentionally deferred.","regions":[{"id":"hogwarts","status":"confirmed","poi_ids":[]},{"id":"hogsmeade","status":"confirmed","poi_ids":[]},{"id":"forbidden_forest","status":"provisional","poi_ids":[]},{"id":"highland_valley","status":"provisional","poi_ids":[]},{"id":"coast","status":"provisional","poi_ids":[]}]}

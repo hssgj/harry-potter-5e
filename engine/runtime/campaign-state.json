@@ -1,0 +1,25 @@
+{
+  "schema_version":1,"campaign_id":"hp5e-matthael","revision":0,
+  "truth_policy":"canon_unknown_provisional_separated",
+  "player":{
+    "id":"matthael_daunt",
+    "resources":{"hp":{"current":10,"max":13,"truth":"confirmed","source":"CURRENT.md"}},
+    "attributes":{"str":8,"dex":14,"con":13,"int":12,"wis":15,"cha":10},
+    "defence":{"ac":12,"initiative":2,"movement_m":9},"conditions":[],
+    "inventory":{"ebony_wand_dragon_essence":1,"wand_case":1},"companions":["snejk"],
+    "magic":{
+      "innate_burst":{"status":"manifestation","truth":"confirmed","cooldown":1},
+      "innate_barrier":{"status":"manifestation","truth":"confirmed","cooldown":0},
+      "innate_pull":{"status":"manifestation","truth":"confirmed","cooldown":1},
+      "innate_light":{"status":"manifestation","truth":"confirmed","cooldown":0},
+      "levioso":{"status":"import_pending","truth":"import_pending","cooldown":1},
+      "line_catch":{"status":"experimental","truth":"import_pending","cooldown":0},
+      "proto_revelio":{"status":"experimental","truth":"import_pending","cooldown":0}
+    },
+    "prepared_magic":["innate_burst","innate_barrier","innate_pull","innate_light"],"cooldowns":{}
+  },
+  "scene":{"id":"session-001-weasley-assessment","truth":"import_pending","region_id":"hogwarts","location_id":"hogwarts-weasley-office","phase":"assessment_after_proto_revelio","used_magic":[{"magic_id":"levioso","turn":0,"event_id":"IMPORT-CHAT-LEV-001"},{"magic_id":"proto_revelio","turn":0,"event_id":"IMPORT-CHAT-REV-001"}]},
+  "combat":{"active":false,"round":0,"turn":0,"reaction_available":true,"participants":[]},
+  "world":{"regions":["hogwarts","hogsmeade","forbidden_forest","highland_valley","coast"],"clocks":{"campaign_pivot":{"label":"Tutorial to open-world pivot","value":1,"segments":4,"visibility":"gm","truth":"provisional"}}},
+  "applied_event_ids":[],"last_event":null
+}
