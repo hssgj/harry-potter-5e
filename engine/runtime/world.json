@@ -1,0 +1,1157 @@
+{
+  "version": 1,
+  "revision": 0,
+  "campaign": {
+    "schema_version": 1,
+    "campaign_id": "hp5e-matthael",
+    "revision": 0,
+    "truth_policy": "canon_unknown_provisional_separated",
+    "player": {
+      "id": "matthael_daunt",
+      "resources": {
+        "hp": {
+          "current": 10,
+          "max": 13,
+          "truth": "confirmed",
+          "source": "CURRENT.md"
+        }
+      },
+      "attributes": {
+        "str": 8,
+        "dex": 14,
+        "con": 13,
+        "int": 12,
+        "wis": 15,
+        "cha": 10
+      },
+      "defence": {
+        "ac": 12,
+        "initiative": 2,
+        "movement_m": 9
+      },
+      "conditions": [],
+      "inventory": {
+        "ebony_wand_dragon_essence": 1,
+        "wand_case": 1
+      },
+      "companions": [
+        "snejk"
+      ],
+      "magic": {
+        "innate_burst": {
+          "status": "manifestation",
+          "truth": "confirmed",
+          "cooldown": 1
+        },
+        "innate_barrier": {
+          "status": "manifestation",
+          "truth": "confirmed",
+          "cooldown": 0
+        },
+        "innate_pull": {
+          "status": "manifestation",
+          "truth": "confirmed",
+          "cooldown": 1
+        },
+        "innate_light": {
+          "status": "manifestation",
+          "truth": "confirmed",
+          "cooldown": 0
+        },
+        "levioso": {
+          "status": "import_pending",
+          "truth": "import_pending",
+          "cooldown": 1
+        },
+        "line_catch": {
+          "status": "experimental",
+          "truth": "import_pending",
+          "cooldown": 0
+        },
+        "proto_revelio": {
+          "status": "experimental",
+          "truth": "import_pending",
+          "cooldown": 0
+        }
+      },
+      "prepared_magic": [
+        "innate_burst",
+        "innate_barrier",
+        "innate_pull",
+        "innate_light"
+      ],
+      "cooldowns": {}
+    },
+    "scene": {
+      "id": "session-001-weasley-assessment",
+      "truth": "import_pending",
+      "region_id": "hogwarts",
+      "location_id": "hogwarts-weasley-office",
+      "phase": "assessment_after_proto_revelio",
+      "used_magic": [
+        {
+          "magic_id": "levioso",
+          "turn": 0,
+          "event_id": "IMPORT-CHAT-LEV-001"
+        },
+        {
+          "magic_id": "proto_revelio",
+          "turn": 0,
+          "event_id": "IMPORT-CHAT-REV-001"
+        }
+      ]
+    },
+    "combat": {
+      "active": false,
+      "round": 0,
+      "turn": 0,
+      "reaction_available": true,
+      "participants": []
+    },
+    "world": {
+      "regions": [
+        "hogwarts",
+        "hogsmeade",
+        "forbidden_forest",
+        "highland_valley",
+        "coast"
+      ],
+      "clocks": {
+        "campaign_pivot": {
+          "label": "Tutorial to open-world pivot",
+          "value": 1,
+          "segments": 4,
+          "visibility": "gm",
+          "truth": "provisional"
+        }
+      }
+    },
+    "applied_event_ids": [],
+    "last_event": null
+  },
+  "events": [],
+  "item_ids": [
+    "gear_duellists_wristloop",
+    "gear_counterweight_buckle",
+    "gear_stormglass_lens",
+    "gear_folded_cauldron",
+    "gear_silkstep_wraps",
+    "gear_echo_compass",
+    "gear_tidebreather_reed",
+    "gear_quarry_grip_gloves",
+    "gear_mothveil_lantern",
+    "gear_recall_chalk_case",
+    "con_fizzing_focus",
+    "con_gripwax",
+    "con_silver_smoke_pellet",
+    "con_snapvine_cord",
+    "con_warming_pearl",
+    "con_bottled_tailwind",
+    "con_flash_sugar",
+    "con_quiet_mint",
+    "con_quickseal_resin",
+    "con_spider_salt",
+    "ing_lantern_moth_dust",
+    "ing_moonwell_silt",
+    "ing_saltglass_shard",
+    "ing_whispercap_gill",
+    "ing_black_kelp_bulb",
+    "ing_spider_silk_clean",
+    "ing_orbit_apple_seed",
+    "ing_storm_roost_quill",
+    "ing_rootheart_fibre",
+    "ing_mooncalf_feedstone",
+    "ing_peat_bloom",
+    "ing_riverglass_flake",
+    "cmp_brass_memory_spring",
+    "cmp_silver_resonance_wire",
+    "cmp_ward_nail_set",
+    "cmp_counterweight_core",
+    "cmp_stormground_ring",
+    "cmp_moonglass_prism",
+    "cmp_tide_lock",
+    "cmp_echo_flagstone_chip",
+    "cur_map_that_avoids_you",
+    "cur_future_echo_shell",
+    "cur_self_folding_letter",
+    "cur_gravity_shy_coin",
+    "ebony_wand_dragon_essence",
+    "wand_case"
+  ],
+  "template_ids": [
+    "HOG-E01",
+    "HOG-E02",
+    "HOG-E03",
+    "HOG-E04",
+    "HSM-E01",
+    "HSM-E02",
+    "HSM-E03",
+    "HSM-E04",
+    "FOR-E01",
+    "FOR-E02",
+    "FOR-E03",
+    "FOR-E04",
+    "VAL-E01",
+    "VAL-E02",
+    "VAL-E03",
+    "VAL-E04",
+    "CST-E01",
+    "CST-E02",
+    "CST-E03",
+    "CST-E04"
+  ],
+  "entities": {
+    "HOG-001": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "disturbed",
+        "secured"
+      ],
+      "location_id": "LOC-HOG-001",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-HOG-001": {
+      "kind": "location",
+      "poi_id": "HOG-001",
+      "state": "unvisited",
+      "log": []
+    },
+    "HOG-002": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "flooded",
+        "drained",
+        "reoccupied"
+      ],
+      "location_id": "LOC-HOG-002",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-HOG-002": {
+      "kind": "location",
+      "poi_id": "HOG-002",
+      "state": "unvisited",
+      "log": []
+    },
+    "HOG-003": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "misaligned",
+        "synchronized"
+      ],
+      "location_id": "LOC-HOG-003",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-HOG-003": {
+      "kind": "location",
+      "poi_id": "HOG-003",
+      "state": "unvisited",
+      "log": []
+    },
+    "HOG-004": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "overgrown",
+        "pruned",
+        "volatile"
+      ],
+      "location_id": "LOC-HOG-004",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-HOG-004": {
+      "kind": "location",
+      "poi_id": "HOG-004",
+      "state": "unvisited",
+      "log": []
+    },
+    "HOG-005": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "unstable",
+        "crossable"
+      ],
+      "location_id": "LOC-HOG-005",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-HOG-005": {
+      "kind": "location",
+      "poi_id": "HOG-005",
+      "state": "unvisited",
+      "log": []
+    },
+    "HOG-006": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "circuit_ready",
+        "completed",
+        "advanced_unlocked"
+      ],
+      "location_id": "LOC-HOG-006",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-HOG-006": {
+      "kind": "location",
+      "poi_id": "HOG-006",
+      "state": "unvisited",
+      "log": []
+    },
+    "HOG-007": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "blocked",
+        "opened"
+      ],
+      "location_id": "LOC-HOG-007",
+      "loot_nodes": [
+        "n1"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-HOG-007": {
+      "kind": "location",
+      "poi_id": "HOG-007",
+      "state": "unvisited",
+      "log": []
+    },
+    "HOG-008": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "dormant",
+        "active",
+        "discharged"
+      ],
+      "location_id": "LOC-HOG-008",
+      "loot_nodes": [
+        "n1"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-HOG-008": {
+      "kind": "location",
+      "poi_id": "HOG-008",
+      "state": "unvisited",
+      "log": []
+    },
+    "HSM-001": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "occupied",
+        "cleared",
+        "watched"
+      ],
+      "location_id": "LOC-HSM-001",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-HSM-001": {
+      "kind": "location",
+      "poi_id": "HSM-001",
+      "state": "unvisited",
+      "log": []
+    },
+    "HSM-002": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "frozen",
+        "stable",
+        "spoiled"
+      ],
+      "location_id": "LOC-HSM-002",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-HSM-002": {
+      "kind": "location",
+      "poi_id": "HSM-002",
+      "state": "unvisited",
+      "log": []
+    },
+    "HSM-003": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "active_route",
+        "cache_looted",
+        "patrolled"
+      ],
+      "location_id": "LOC-HSM-003",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-HSM-003": {
+      "kind": "location",
+      "poi_id": "HSM-003",
+      "state": "unvisited",
+      "log": []
+    },
+    "HSM-004": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "auction_active",
+        "beasts_freed",
+        "moved"
+      ],
+      "location_id": "LOC-HSM-004",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-HSM-004": {
+      "kind": "location",
+      "poi_id": "HSM-004",
+      "state": "unvisited",
+      "log": []
+    },
+    "HSM-005": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "running",
+        "disrupted",
+        "abandoned"
+      ],
+      "location_id": "LOC-HSM-005",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-HSM-005": {
+      "kind": "location",
+      "poi_id": "HSM-005",
+      "state": "unvisited",
+      "log": []
+    },
+    "HSM-006": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "malfunctioning",
+        "reset",
+        "dismantled"
+      ],
+      "location_id": "LOC-HSM-006",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-HSM-006": {
+      "kind": "location",
+      "poi_id": "HSM-006",
+      "state": "unvisited",
+      "log": []
+    },
+    "HSM-007": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "pressurized",
+        "vented"
+      ],
+      "location_id": "LOC-HSM-007",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-HSM-007": {
+      "kind": "location",
+      "poi_id": "HSM-007",
+      "state": "unvisited",
+      "log": []
+    },
+    "HSM-008": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "breached",
+        "restored",
+        "collapsed"
+      ],
+      "location_id": "LOC-HSM-008",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-HSM-008": {
+      "kind": "location",
+      "poi_id": "HSM-008",
+      "state": "unvisited",
+      "log": []
+    },
+    "FOR-001": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "hunting",
+        "burned",
+        "quiet"
+      ],
+      "location_id": "LOC-FOR-001",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-FOR-001": {
+      "kind": "location",
+      "poi_id": "FOR-001",
+      "state": "unvisited",
+      "log": []
+    },
+    "FOR-002": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "challenged",
+        "permitted",
+        "hostile"
+      ],
+      "location_id": "LOC-FOR-002",
+      "loot_nodes": [
+        "n1"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-FOR-002": {
+      "kind": "location",
+      "poi_id": "FOR-002",
+      "state": "unvisited",
+      "log": []
+    },
+    "FOR-003": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "occupied",
+        "vacated",
+        "collapsed"
+      ],
+      "location_id": "LOC-FOR-003",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-FOR-003": {
+      "kind": "location",
+      "poi_id": "FOR-003",
+      "state": "unvisited",
+      "log": []
+    },
+    "FOR-004": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "looping",
+        "charted"
+      ],
+      "location_id": "LOC-FOR-004",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-FOR-004": {
+      "kind": "location",
+      "poi_id": "FOR-004",
+      "state": "unvisited",
+      "log": []
+    },
+    "FOR-005": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "occupied",
+        "liberated",
+        "retaken"
+      ],
+      "location_id": "LOC-FOR-005",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-FOR-005": {
+      "kind": "location",
+      "poi_id": "FOR-005",
+      "state": "unvisited",
+      "log": []
+    },
+    "FOR-006": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "echoing",
+        "silent",
+        "harvested"
+      ],
+      "location_id": "LOC-FOR-006",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-FOR-006": {
+      "kind": "location",
+      "poi_id": "FOR-006",
+      "state": "unvisited",
+      "log": []
+    },
+    "FOR-007": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "misaligned",
+        "stable",
+        "drained"
+      ],
+      "location_id": "LOC-FOR-007",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-FOR-007": {
+      "kind": "location",
+      "poi_id": "FOR-007",
+      "state": "unvisited",
+      "log": []
+    },
+    "FOR-008": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "dormant",
+        "responsive",
+        "opened"
+      ],
+      "location_id": "LOC-FOR-008",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-FOR-008": {
+      "kind": "location",
+      "poi_id": "FOR-008",
+      "state": "unvisited",
+      "log": []
+    },
+    "VAL-001": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "occupied",
+        "cleared",
+        "reoccupied"
+      ],
+      "location_id": "LOC-VAL-001",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-VAL-001": {
+      "kind": "location",
+      "poi_id": "VAL-001",
+      "state": "unvisited",
+      "log": []
+    },
+    "VAL-002": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "spinning",
+        "powered",
+        "broken"
+      ],
+      "location_id": "LOC-VAL-002",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-VAL-002": {
+      "kind": "location",
+      "poi_id": "VAL-002",
+      "state": "unvisited",
+      "log": []
+    },
+    "VAL-003": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "resonant",
+        "fractured",
+        "quiet"
+      ],
+      "location_id": "LOC-VAL-003",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-VAL-003": {
+      "kind": "location",
+      "poi_id": "VAL-003",
+      "state": "unvisited",
+      "log": []
+    },
+    "VAL-004": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "agitated",
+        "calmed",
+        "blighted"
+      ],
+      "location_id": "LOC-VAL-004",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-VAL-004": {
+      "kind": "location",
+      "poi_id": "VAL-004",
+      "state": "unvisited",
+      "log": []
+    },
+    "VAL-005": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "worked",
+        "abandoned",
+        "collapsed"
+      ],
+      "location_id": "LOC-VAL-005",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-VAL-005": {
+      "kind": "location",
+      "poi_id": "VAL-005",
+      "state": "unvisited",
+      "log": []
+    },
+    "VAL-006": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "sinking",
+        "stabilized",
+        "lost"
+      ],
+      "location_id": "LOC-VAL-006",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-VAL-006": {
+      "kind": "location",
+      "poi_id": "VAL-006",
+      "state": "unvisited",
+      "log": []
+    },
+    "VAL-007": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "running",
+        "derailed",
+        "controlled"
+      ],
+      "location_id": "LOC-VAL-007",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-VAL-007": {
+      "kind": "location",
+      "poi_id": "VAL-007",
+      "state": "unvisited",
+      "log": []
+    },
+    "VAL-008": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "sealed",
+        "open",
+        "disturbed"
+      ],
+      "location_id": "LOC-VAL-008",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-VAL-008": {
+      "kind": "location",
+      "poi_id": "VAL-008",
+      "state": "unvisited",
+      "log": []
+    },
+    "CST-001": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "submerged",
+        "accessible",
+        "drained"
+      ],
+      "location_id": "LOC-CST-001",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-CST-001": {
+      "kind": "location",
+      "poi_id": "CST-001",
+      "state": "unvisited",
+      "log": []
+    },
+    "CST-002": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "energized",
+        "occupied",
+        "secured"
+      ],
+      "location_id": "LOC-CST-002",
+      "loot_nodes": [
+        "n1",
+        "n2",
+        "n3"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-CST-002": {
+      "kind": "location",
+      "poi_id": "CST-002",
+      "state": "unvisited",
+      "log": []
+    },
+    "CST-003": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "adrift",
+        "anchored",
+        "stripped"
+      ],
+      "location_id": "LOC-CST-003",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-CST-003": {
+      "kind": "location",
+      "poi_id": "CST-003",
+      "state": "unvisited",
+      "log": []
+    },
+    "CST-004": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "pressurized",
+        "vented",
+        "shattered"
+      ],
+      "location_id": "LOC-CST-004",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-CST-004": {
+      "kind": "location",
+      "poi_id": "CST-004",
+      "state": "unvisited",
+      "log": []
+    },
+    "CST-005": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "operating",
+        "jammed",
+        "captured"
+      ],
+      "location_id": "LOC-CST-005",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-CST-005": {
+      "kind": "location",
+      "poi_id": "CST-005",
+      "state": "unvisited",
+      "log": []
+    },
+    "CST-006": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "singing",
+        "silenced",
+        "charted"
+      ],
+      "location_id": "LOC-CST-006",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-CST-006": {
+      "kind": "location",
+      "poi_id": "CST-006",
+      "state": "unvisited",
+      "log": []
+    },
+    "CST-007": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "hunting",
+        "dormant",
+        "harvested"
+      ],
+      "location_id": "LOC-CST-007",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-CST-007": {
+      "kind": "location",
+      "poi_id": "CST-007",
+      "state": "unvisited",
+      "log": []
+    },
+    "CST-008": {
+      "kind": "poi",
+      "state": "unvisited",
+      "allowed_states": [
+        "unvisited",
+        "storming",
+        "grounded",
+        "claimed"
+      ],
+      "location_id": "LOC-CST-008",
+      "loot_nodes": [
+        "n1",
+        "n2"
+      ],
+      "collected": [],
+      "visits": 0,
+      "log": []
+    },
+    "LOC-CST-008": {
+      "kind": "location",
+      "poi_id": "CST-008",
+      "state": "unvisited",
+      "log": []
+    }
+  }
+}

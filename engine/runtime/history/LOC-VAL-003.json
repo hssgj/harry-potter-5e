@@ -1,0 +1,10 @@
+{
+  "revision": 0,
+  "entity": {
+    "kind": "location",
+    "poi_id": "VAL-003",
+    "state": "unvisited",
+    "log": []
+  },
+  "events": []
+}

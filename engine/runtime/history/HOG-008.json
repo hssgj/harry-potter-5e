@@ -1,0 +1,21 @@
+{
+  "revision": 0,
+  "entity": {
+    "kind": "poi",
+    "state": "unvisited",
+    "allowed_states": [
+      "unvisited",
+      "dormant",
+      "active",
+      "discharged"
+    ],
+    "location_id": "LOC-HOG-008",
+    "loot_nodes": [
+      "n1"
+    ],
+    "collected": [],
+    "visits": 0,
+    "log": []
+  },
+  "events": []
+}

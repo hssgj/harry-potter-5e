@@ -1,0 +1,21 @@
+{
+  "revision": 0,
+  "entity": {
+    "kind": "poi",
+    "state": "unvisited",
+    "allowed_states": [
+      "unvisited",
+      "challenged",
+      "permitted",
+      "hostile"
+    ],
+    "location_id": "LOC-FOR-002",
+    "loot_nodes": [
+      "n1"
+    ],
+    "collected": [],
+    "visits": 0,
+    "log": []
+  },
+  "events": []
+}
