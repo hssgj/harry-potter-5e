@@ -1,0 +1,18 @@
+{
+  "pack_id": "highlands-sandbox-v0.1",
+  "schema_version": 1,
+  "status": "provisional",
+  "coordinate_system": {"min": 0, "max": 1000, "origin": "north_west"},
+  "files": {
+    "pois": "pois.json",
+    "map": "map.json",
+    "encounters": "encounters.json",
+    "loot_tables": "loot/tables.json",
+    "gear": "loot/gear.json",
+    "consumables": "loot/consumables.json",
+    "ingredients": "loot/ingredients.json",
+    "components_curios": "loot/components-curios.json"
+  },
+  "counts": {"regions": 5, "pois": 40, "encounter_templates": 20},
+  "rules": {"source": "../../../rules/CORE_v0.2.md", "mana_stamina": false}
+}

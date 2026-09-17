@@ -1,0 +1,15 @@
+{
+  "schema_version":1,
+  "items":[
+    {"id":"gear_duellists_wristloop","name":"Duellist's Wristloop","rarity":"uncommon","slot":"wand_accessory","tags":["duelling","reaction"],"effect":"Once per scene, retain grip on the wand when disarmed or forcibly moved."},
+    {"id":"gear_counterweight_buckle","name":"Counterweight Buckle","rarity":"uncommon","slot":"belt","tags":["movement","force"],"effect":"Once per scene, reduce involuntary movement by 3 m or add 1.5 m to your own pull-assisted movement."},
+    {"id":"gear_stormglass_lens","name":"Stormglass Lens","rarity":"rare","slot":"tool","tags":["light","storm","inspection"],"effect":"Reveals the next conductive path of visible magical electricity."},
+    {"id":"gear_folded_cauldron","name":"Folded Field Cauldron","rarity":"uncommon","slot":"tool","tags":["brewing","camp"],"effect":"Expands into a small stable cauldron; enables safe field brewing with proper ingredients."},
+    {"id":"gear_silkstep_wraps","name":"Silkstep Shoe Wraps","rarity":"uncommon","slot":"boots","tags":["stealth","web"],"effect":"Ignore the first patch of ordinary sticky or webbed terrain each scene."},
+    {"id":"gear_echo_compass","name":"Echo Compass","rarity":"rare","slot":"tool","tags":["navigation","sound"],"effect":"Points toward the source of the last sound deliberately recorded into it."},
+    {"id":"gear_tidebreather_reed","name":"Tidebreather Reed","rarity":"rare","slot":"tool","tags":["water","limited"],"charges":3,"effect":"Creates a short breath of air underwater; one charge per use."},
+    {"id":"gear_quarry_grip_gloves","name":"Quarry-Grip Gloves","rarity":"uncommon","slot":"hands","tags":["climb","object"],"effect":"Advantage when holding a ledge or resisting an object pulled from your hands."},
+    {"id":"gear_mothveil_lantern","name":"Mothveil Lantern","rarity":"rare","slot":"tool","tags":["light","beast"],"effect":"Its hooded green light attracts small light-sensitive creatures without illuminating the bearer."},
+    {"id":"gear_recall_chalk_case","name":"Recall Chalk Case","rarity":"uncommon","slot":"tool","tags":["map","route"],"effect":"Three marks remain faintly visible to the owner through fog, darkness and common concealment."}
+  ]
+}

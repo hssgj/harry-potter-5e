@@ -1,0 +1,15 @@
+{
+  "schema_version":1,
+  "items":[
+    {"id":"con_fizzing_focus","name":"Fizzing Focus Draught","rarity":"common","tags":["potion","focus"],"effect":"Ignore one minor environmental distraction on the next spell attempt this scene."},
+    {"id":"con_gripwax","name":"Spellgrip Wax","rarity":"common","tags":["wand","utility"],"effect":"For one scene, gain advantage against being disarmed by mundane means."},
+    {"id":"con_silver_smoke_pellet","name":"Silver Smoke Pellet","rarity":"uncommon","tags":["escape","smoke"],"effect":"Creates a brief 3 m obscured cloud that glitters around moving creatures."},
+    {"id":"con_snapvine_cord","name":"Snapvine Cord","rarity":"uncommon","tags":["restraint","plant"],"effect":"Thrown cord attempts to bind a small object or already-controlled creature; single use."},
+    {"id":"con_warming_pearl","name":"Warming Pearl","rarity":"common","tags":["cold","water"],"effect":"Keeps one person warm and functional for ten minutes in severe cold or wet."},
+    {"id":"con_bottled_tailwind","name":"Bottled Tailwind","rarity":"rare","tags":["movement","air"],"effect":"On breaking, pushes everything unsecured in a narrow 6 m line."},
+    {"id":"con_flash_sugar","name":"Flash Sugar","rarity":"common","tags":["light","distraction"],"effect":"Creates a harmless brilliant crackle when crushed."},
+    {"id":"con_quiet_mint","name":"Quiet Mint","rarity":"uncommon","tags":["stealth","voice"],"effect":"For one minute, the user's breath and involuntary noises are suppressed; deliberate speech ends it."},
+    {"id":"con_quickseal_resin","name":"Quickseal Resin","rarity":"uncommon","tags":["repair","water"],"effect":"Seals one hand-sized crack against water or air for one scene."},
+    {"id":"con_spider_salt","name":"Spider Salt","rarity":"common","tags":["beast","repellent"],"effect":"A short line repels ordinary spiders and discourages giant spiders until disturbed."}
+  ]
+}

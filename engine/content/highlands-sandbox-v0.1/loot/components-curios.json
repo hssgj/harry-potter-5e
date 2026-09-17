@@ -1,0 +1,17 @@
+{
+  "schema_version":1,
+  "items":[
+    {"id":"cmp_brass_memory_spring","name":"Brass Memory Spring","rarity":"uncommon","tags":["mechanism","repeat"],"socket_tags":["tool"],"effect":"A crafted tool may repeat its last simple mechanical motion once."},
+    {"id":"cmp_silver_resonance_wire","name":"Silver Resonance Wire","rarity":"rare","tags":["sound","spell"],"socket_tags":["wand_accessory","ward"],"effect":"Carries one chosen vibration between two connected points."},
+    {"id":"cmp_ward_nail_set","name":"Matched Ward Nails","rarity":"uncommon","tags":["ward","anchor"],"socket_tags":["camp","ward"],"effect":"Anchors a temporary boundary or stabilizes a damaged circle."},
+    {"id":"cmp_counterweight_core","name":"Miniature Counterweight Core","rarity":"rare","tags":["force","balance"],"socket_tags":["gear","tool"],"effect":"Lets a crafted object balance against an apparently impossible load."},
+    {"id":"cmp_stormground_ring","name":"Stormground Ring","rarity":"rare","tags":["electric","defence"],"socket_tags":["gear","ward"],"effect":"A fitted item can safely ground one minor magical arc before needing repair."},
+    {"id":"cmp_moonglass_prism","name":"Moonglass Prism","rarity":"rare","tags":["reveal","lunar"],"socket_tags":["lantern","focus"],"effect":"Separates layered magical traces into distinct visible colors."},
+    {"id":"cmp_tide_lock","name":"Tide Lock","rarity":"uncommon","tags":["water","mechanism"],"socket_tags":["container","door"],"effect":"Opens only at a chosen water level."},
+    {"id":"cmp_echo_flagstone_chip","name":"Echo-Flagstone Chip","rarity":"rare","tags":["force","storage"],"socket_tags":["trap","focus"],"effect":"Stores a weak physical impulse and releases it when tapped."},
+    {"id":"cur_map_that_avoids_you","name":"Map That Avoids You","rarity":"rare","tags":["curio","map"],"effect":"Draws nearby routes except the one currently occupied by its holder."},
+    {"id":"cur_future_echo_shell","name":"Future-Echo Shell","rarity":"rare","tags":["curio","sound"],"effect":"Once per day, produces one ambiguous sound likely to occur nearby within the next minute."},
+    {"id":"cur_self_folding_letter","name":"Self-Folding Letter","rarity":"uncommon","tags":["curio","message"],"effect":"Folds itself into a creature indicating the writer's mood."},
+    {"id":"cur_gravity_shy_coin","name":"Gravity-Shy Coin","rarity":"uncommon","tags":["curio","gravity"],"effect":"Falls sideways while watched and normally while ignored."}
+  ]
+}

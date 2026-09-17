@@ -1,0 +1,17 @@
+{
+  "schema_version":1,
+  "items":[
+    {"id":"ing_lantern_moth_dust","name":"Lantern-Moth Dust","rarity":"uncommon","tags":["light","powder"],"use":"Light-guidance and reveal mixtures."},
+    {"id":"ing_moonwell_silt","name":"Moonwell Silt","rarity":"rare","tags":["gravity","lunar"],"use":"Suspension and weight-altering brews."},
+    {"id":"ing_saltglass_shard","name":"Saltglass Shard","rarity":"uncommon","tags":["water","resonance"],"use":"Sound storage and pressure components."},
+    {"id":"ing_whispercap_gill","name":"Whispercap Gill","rarity":"uncommon","tags":["sound","fungus"],"use":"Echo, silence and memory mixtures."},
+    {"id":"ing_black_kelp_bulb","name":"Black Kelp Bulb","rarity":"rare","tags":["water","grasping"],"use":"Breathing aids and binding compounds."},
+    {"id":"ing_spider_silk_clean","name":"Clean Giant-Spider Silk","rarity":"uncommon","tags":["silk","binding"],"use":"Cords, wand wraps and restraint recipes."},
+    {"id":"ing_orbit_apple_seed","name":"Orbit-Apple Seed","rarity":"uncommon","tags":["plant","levitation"],"use":"Motion-sensitive planting and levitation experiments."},
+    {"id":"ing_storm_roost_quill","name":"Storm-Roost Quill","rarity":"rare","tags":["air","electric"],"use":"Conductive writing, weather and reaction components."},
+    {"id":"ing_rootheart_fibre","name":"Rootheart Fibre","rarity":"rare","tags":["plant","ward"],"use":"Living wards and self-tightening repairs."},
+    {"id":"ing_mooncalf_feedstone","name":"Mooncalf Feedstone","rarity":"uncommon","tags":["beast","lunar"],"use":"Calming lures and nocturnal beast care."},
+    {"id":"ing_peat_bloom","name":"Peat Bloom","rarity":"common","tags":["earth","healing"],"use":"Stabilizers and basic restorative brewing."},
+    {"id":"ing_riverglass_flake","name":"Riverglass Flake","rarity":"rare","tags":["echo","force"],"use":"Delayed-force components and experimental focuses."}
+  ]
+}

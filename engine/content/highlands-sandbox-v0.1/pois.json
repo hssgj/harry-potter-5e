@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "pois": [
+    {
+      "id":"HOG-001","name":"Owlery Windwalk","region":"hogwarts","pin":[455,302],"type":"vertical_traverse","danger":1,
+      "visible_cue":"Loose letters spiral around a broken exterior stair.","hidden_cue":"A brass courier tube is wedged beneath the highest vane.",
+      "encounter_pool":["HOG-E01","HOG-E03"],"terrain":["crosswind","moving_perches","long_drop"],
+      "spell_affordances":["levitate stepping boards","pull the courier tube","shield against diving owls"],
+      "loot_nodes":[{"id":"n1","kind":"exposed_cache","table":"school_cache","access":"reach the vane"},{"id":"n2","kind":"ingredient_cluster","table":"aerial_ingredients","access":"calm the flock"}],
+      "states":["unvisited","disturbed","secured"]
+    },
+    {
+      "id":"HOG-002","name":"Flooded Boathouse Crawl","region":"hogwarts","pin":[486,424],"type":"micro_dungeon","danger":2,
+      "visible_cue":"Cold light pulses beneath the chained landing.","hidden_cue":"The tide reveals a maintenance arch for twelve minutes.",
+      "encounter_pool":["HOG-E02","HOG-E04"],"terrain":["waist_deep_water","chains","submerged_arch"],
+      "spell_affordances":["raise floating cover","light the submerged route","force open a rusted grille"],
+      "loot_nodes":[{"id":"n1","kind":"submerged_chest","table":"lake_salvage","access":"open below water"},{"id":"n2","kind":"tool_rack","table":"utility_gear","access":"drain the alcove"}],
+      "states":["unvisited","flooded","drained","reoccupied"]
+    },
+    {
+      "id":"HOG-003","name":"Bell Tower Gear Room","region":"hogwarts","pin":[422,266],"type":"puzzle_combat","danger":2,
+      "visible_cue":"One bell rings without moving.","hidden_cue":"The wrong gear cadence opens a service vault.",
+      "encounter_pool":["HOG-E01","HOG-E03"],"terrain":["rotating_gears","bell_ropes","narrow_catwalk"],
+      "spell_affordances":["arrest a gear","pull distant levers","weaponize the bell shockwave"],
+      "loot_nodes":[{"id":"n1","kind":"mechanism_vault","table":"precision_components","access":"solve the cadence"},{"id":"n2","kind":"raven_nest","table":"school_cache","access":"cross the catwalk"}],
+      "states":["unvisited","misaligned","synchronized"]
+    },
+    {
+      "id":"HOG-004","name":"North Greenhouse Service Tunnels","region":"hogwarts","pin":[529,318],"type":"hazard_den","danger":2,
+      "visible_cue":"Warm mist escapes through cracked paving stones.","hidden_cue":"A root-choked hatch leads under Greenhouse Three.",
+      "encounter_pool":["HOG-E02","HOG-E04"],"terrain":["grasping_roots","steam_valves","fertilizer_sacks"],
+      "spell_affordances":["levitate bait","burst steam pipes","light-spook nocturnal vines"],
+      "loot_nodes":[{"id":"n1","kind":"potting_bench","table":"botanical_ingredients","access":"clear the roots"},{"id":"n2","kind":"locked_cabinet","table":"brewing_supplies","access":"restore valve pressure"}],
+      "states":["unvisited","overgrown","pruned","volatile"]
+    },
+    {
+      "id":"HOG-005","name":"Viaduct Underspan","region":"hogwarts","pin":[474,354],"type":"combat_arena","danger":2,
+      "visible_cue":"Stone flakes fall upward beneath the bridge.","hidden_cue":"A maintenance cradle still moves on counterweights.",
+      "encounter_pool":["HOG-E01","HOG-E03"],"terrain":["suspended_cradle","breakable_scaffolds","open_void"],
+      "spell_affordances":["pull counterweights","drop scaffolds","levitate across missing spans"],
+      "loot_nodes":[{"id":"n1","kind":"worker_cache","table":"utility_gear","access":"reach the cradle"},{"id":"n2","kind":"masonry_seam","table":"arcane_components","access":"inspect reversed stone"}],
+      "states":["unvisited","unstable","crossable"]
+    },
+    {
+      "id":"HOG-006","name":"Abandoned Duelling Gallery","region":"hogwarts","pin":[447,333],"type":"challenge_room","danger":2,
+      "visible_cue":"Training targets reset themselves behind a sealed classroom.","hidden_cue":"Scoring three different control effects wakes the advanced circuit.",
+      "encounter_pool":["HOG-E03"],"terrain":["moving_dummies","raised_dais","shield_emitters"],
+      "spell_affordances":["combo airborne targets","redirect dummy fire","break arena shields by category"],
+      "loot_nodes":[{"id":"n1","kind":"reward_plinth","table":"duelling_rewards","access":"clear a circuit"},{"id":"n2","kind":"instructor_drawer","table":"school_cache","access":"find the reset key"}],
+      "states":["unvisited","circuit_ready","completed","advanced_unlocked"]
+    },
+    {
+      "id":"HOG-007","name":"Lake-Cliff Drain","region":"hogwarts","pin":[508,389],"type":"secret_route","danger":1,
+      "visible_cue":"A carved drain exhales lake fog uphill.","hidden_cue":"Moonlight reveals handholds inside the watercourse.",
+      "encounter_pool":["HOG-E02"],"terrain":["slick_slope","sluice_gates","blind_corner"],
+      "spell_affordances":["hold a sluice gate","create floating handholds","illuminate reflective markers"],
+      "loot_nodes":[{"id":"n1","kind":"smuggled_bundle","table":"contraband_minor","access":"reach the dry pocket"}],
+      "states":["unvisited","blocked","opened"]
+    },
+    {
+      "id":"HOG-008","name":"Charred Practice Court","region":"hogwarts","pin":[399,344],"type":"environmental_arena","danger":2,
+      "visible_cue":"Old scorch marks reignite whenever someone draws a wand.","hidden_cue":"The central flagstone stores the last force applied to it.",
+      "encounter_pool":["HOG-E04","HOG-E03"],"terrain":["reactive_scorch_lines","stone_cover","echo_flagstone"],
+      "spell_affordances":["chain force through scorch lines","store and release a push","raise broken cover"],
+      "loot_nodes":[{"id":"n1","kind":"scorched_locker","table":"duelling_rewards","access":"survive the flare cycle"}],
+      "states":["unvisited","dormant","active","discharged"]
+    },
+
+    {
+      "id":"HSM-001","name":"Shrieking Shack Cellar","region":"hogsmeade","pin":[338,236],"type":"micro_dungeon","danger":3,
+      "visible_cue":"Fresh footprints stop at a nailed cellar door.","hidden_cue":"The fireplace flue bypasses the loudest floorboards.",
+      "encounter_pool":["HSM-E01","HSM-E04"],"terrain":["collapsing_floor","dust_clouds","crawlspaces"],
+      "spell_affordances":["levitate over rotten boards","pull nails silently","blast dust into pursuers"],
+      "loot_nodes":[{"id":"n1","kind":"false_wall","table":"contraband_minor","access":"find hollow plaster"},{"id":"n2","kind":"abandoned_kit","table":"field_consumables","access":"cross the cellar"}],
+      "states":["unvisited","occupied","cleared","watched"]
+    },
+    {
+      "id":"HSM-002","name":"Old Butterbeer Cooling Vault","region":"hogsmeade","pin":[372,274],"type":"puzzle_loot","danger":1,
+      "visible_cue":"Frost crawls across a boarded brewery annex.","hidden_cue":"The cooling coils respond to alternating heat and force.",
+      "encounter_pool":["HSM-E02"],"terrain":["frosted_floor","pressure_coils","rolling_casks"],
+      "spell_affordances":["move casks into sockets","trigger pressure valves","control sliding momentum"],
+      "loot_nodes":[{"id":"n1","kind":"cellar_rack","table":"village_provisions","access":"stabilize temperature"},{"id":"n2","kind":"coil_housing","table":"precision_components","access":"vent the system"}],
+      "states":["unvisited","frozen","stable","spoiled"]
+    },
+    {
+      "id":"HSM-003","name":"Chimney-Hopper Rooftops","region":"hogsmeade","pin":[391,252],"type":"parkour_route","danger":2,
+      "visible_cue":"Blue sparks hop between crooked chimneys at dusk.","hidden_cue":"A roof thief marks safe tiles with invisible chalk.",
+      "encounter_pool":["HSM-E01","HSM-E03"],"terrain":["roof_gaps","soot_vents","breakable_signs"],
+      "spell_affordances":["pull across gaps","levitate signs as platforms","ignite soot bursts"],
+      "loot_nodes":[{"id":"n1","kind":"thief_cache","table":"contraband_minor","access":"follow invisible marks"},{"id":"n2","kind":"chimney_nest","table":"aerial_ingredients","access":"reach highest stack"}],
+      "states":["unvisited","active_route","cache_looted","patrolled"]
+    },
+    {
+      "id":"HSM-004","name":"Mooncalf Auction Pens","region":"hogsmeade","pin":[417,219],"type":"rescue_encounter","danger":3,
+      "visible_cue":"Covered wagons arrive after every shop closes.","hidden_cue":"The pen locks share one vibration-sensitive charm.",
+      "encounter_pool":["HSM-E03","HSM-E04"],"terrain":["animal_pens","hanging_lanterns","wagon_cover"],
+      "spell_affordances":["open several locks by resonance","drop lanterns as distractions","move cages without startling beasts"],
+      "loot_nodes":[{"id":"n1","kind":"auction_lockbox","table":"poacher_spoils","access":"take the key or break charm"},{"id":"n2","kind":"feed_crates","table":"beast_ingredients","access":"calm rescued beasts"}],
+      "states":["unvisited","auction_active","beasts_freed","moved"]
+    },
+    {
+      "id":"HSM-005","name":"Underbridge Smuggler Run","region":"hogsmeade","pin":[355,304],"type":"combat_route","danger":3,
+      "visible_cue":"Crates drift upstream beneath the village bridge.","hidden_cue":"A rope pull opens a dry tunnel behind the waterfall.",
+      "encounter_pool":["HSM-E01","HSM-E04"],"terrain":["fast_water","rope_lifts","low_arches"],
+      "spell_affordances":["pull drifting cover","reverse rope lifts","force enemies into current"],
+      "loot_nodes":[{"id":"n1","kind":"cargo_stack","table":"contraband_minor","access":"secure the tunnel"},{"id":"n2","kind":"sealed_case","table":"duelling_rewards","access":"recover from current"}],
+      "states":["unvisited","running","disrupted","abandoned"]
+    },
+    {
+      "id":"HSM-006","name":"Clockmaker's Back Room","region":"hogsmeade","pin":[382,289],"type":"construct_challenge","danger":2,
+      "visible_cue":"Tiny brass birds attack the shop windows after midnight.","hidden_cue":"The master spring can command every construct once.",
+      "encounter_pool":["HSM-E02"],"terrain":["clockwork_swarm","magnetic_bench","pendulum_blades"],
+      "spell_affordances":["hold gears airborne","pull winding keys","redirect pendulum sweeps"],
+      "loot_nodes":[{"id":"n1","kind":"parts_drawer","table":"precision_components","access":"disable the swarm"},{"id":"n2","kind":"master_case","table":"utility_gear","access":"use the master spring"}],
+      "states":["unvisited","malfunctioning","reset","dismantled"]
+    },
+    {
+      "id":"HSM-007","name":"Honeydukes Sugar Flue","region":"hogsmeade","pin":[405,277],"type":"hazard_route","danger":1,
+      "visible_cue":"Colored steam leaks from a narrow delivery vent.","hidden_cue":"Crystalized syrup preserves discarded experimental sweets.",
+      "encounter_pool":["HSM-E02"],"terrain":["sticky_floor","sugar_steam","conveyor_scoops"],
+      "spell_affordances":["move conveyor scoops","shield from hot steam","light reveals crystallized seams"],
+      "loot_nodes":[{"id":"n1","kind":"sweet_cache","table":"village_provisions","access":"cross the flue"},{"id":"n2","kind":"crystal_scrape","table":"brewing_supplies","access":"cool the syrup"}],
+      "states":["unvisited","pressurized","vented"]
+    },
+    {
+      "id":"HSM-008","name":"Graveyard Warding Circle","region":"hogsmeade","pin":[321,281],"type":"night_arena","danger":3,
+      "visible_cue":"Headstones rotate toward any active wand.","hidden_cue":"Four iron nails anchor a failing protective circle.",
+      "encounter_pool":["HSM-E03","HSM-E04"],"terrain":["rotating_headstones","ward_lines","shallow_graves"],
+      "spell_affordances":["pull ward nails into place","use headstones as moving cover","light dormant runes"],
+      "loot_nodes":[{"id":"n1","kind":"caretaker_box","table":"warding_components","access":"restore circle"},{"id":"n2","kind":"grave_offering","table":"curio_cache","access":"defeat the disturbance"}],
+      "states":["unvisited","breached","restored","collapsed"]
+    },
+
+    {
+      "id":"FOR-001","name":"Webbed Deer Trail","region":"forbidden_forest","pin":[271,354],"type":"ambush_route","danger":3,
+      "visible_cue":"Whole saplings bend beneath fresh silver web.","hidden_cue":"Vibrations reveal a safe rhythm between nests.",
+      "encounter_pool":["FOR-E01","FOR-E04"],"terrain":["web_lines","bent_saplings","egg_sacs"],
+      "spell_affordances":["pull webs as tripwires","levitate egg sacs as bait","light exposes vibration paths"],
+      "loot_nodes":[{"id":"n1","kind":"silk_cluster","table":"forest_ingredients","access":"harvest without rupture"},{"id":"n2","kind":"wrapped_pack","table":"field_consumables","access":"cut down cocoon"}],
+      "states":["unvisited","hunting","burned","quiet"]
+    },
+    {
+      "id":"FOR-002","name":"Centaur Boundary Stones","region":"forbidden_forest","pin":[222,327],"type":"social_hazard","danger":2,
+      "visible_cue":"Arrows pin dead leaves into a perfect circle.","hidden_cue":"The stones map moving constellations, not property lines.",
+      "encounter_pool":["FOR-E02","FOR-E03"],"terrain":["standing_stones","clear_sightlines","star_marks"],
+      "spell_affordances":["rotate stones without touching","illuminate star paths","shield against warning shots"],
+      "loot_nodes":[{"id":"n1","kind":"astral_offering","table":"curio_cache","access":"align the stones"}],
+      "states":["unvisited","challenged","permitted","hostile"]
+    },
+    {
+      "id":"FOR-003","name":"Hollowroot Burrow","region":"forbidden_forest","pin":[194,397],"type":"micro_dungeon","danger":4,
+      "visible_cue":"Warm breath fogs from beneath an uprooted oak.","hidden_cue":"The deepest chamber has a second ceiling made of roots.",
+      "encounter_pool":["FOR-E01","FOR-E04"],"terrain":["tight_roots","burrow_shafts","spore_pockets"],
+      "spell_affordances":["widen gaps with force","levitate through vertical shafts","ignite spores at risk"],
+      "loot_nodes":[{"id":"n1","kind":"beast_nest","table":"beast_ingredients","access":"reach lower den"},{"id":"n2","kind":"root_heart","table":"rare_ingredients","access":"find upper chamber"}],
+      "states":["unvisited","occupied","vacated","collapsed"]
+    },
+    {
+      "id":"FOR-004","name":"Lantern Moth Grove","region":"forbidden_forest","pin":[309,402],"type":"navigation_puzzle","danger":2,
+      "visible_cue":"Green moths form doors between trees.","hidden_cue":"Only shadows point toward the physical exit.",
+      "encounter_pool":["FOR-E02"],"terrain":["false_paths","moth_clouds","shadow_pools"],
+      "spell_affordances":["use controlled light to steer moths","pull hanging mirrors","levitate above false paths"],
+      "loot_nodes":[{"id":"n1","kind":"moth_roost","table":"aerial_ingredients","access":"guide swarm home"},{"id":"n2","kind":"lost_satchel","table":"school_cache","access":"find true exit"}],
+      "states":["unvisited","looping","charted"]
+    },
+    {
+      "id":"FOR-005","name":"Poacher Winch Camp","region":"forbidden_forest","pin":[247,443],"type":"combat_camp","danger":3,
+      "visible_cue":"A crane lifts covered cages above the canopy.","hidden_cue":"One counterweight drops the entire camp's platforms.",
+      "encounter_pool":["FOR-E03","FOR-E04"],"terrain":["raised_platforms","cage_crane","counterweights"],
+      "spell_affordances":["release cages remotely","drop platforms","swing crane loads through enemies"],
+      "loot_nodes":[{"id":"n1","kind":"poacher_trunk","table":"poacher_spoils","access":"clear command platform"},{"id":"n2","kind":"cage_rack","table":"beast_ingredients","access":"free captives"}],
+      "states":["unvisited","occupied","liberated","retaken"]
+    },
+    {
+      "id":"FOR-006","name":"Whispercap Sink","region":"forbidden_forest","pin":[166,350],"type":"hazard_pit","danger":3,
+      "visible_cue":"Mushrooms repeat spoken words from hours ago.","hidden_cue":"A stone ladder appears only while nobody speaks.",
+      "encounter_pool":["FOR-E01","FOR-E02"],"terrain":["echo_spores","sinkhole_ledges","sound_triggered_vines"],
+      "spell_affordances":["move objects silently","use echoes as bait","shield against spore bursts"],
+      "loot_nodes":[{"id":"n1","kind":"fungal_bed","table":"forest_ingredients","access":"descend silently"},{"id":"n2","kind":"old_explorer_cache","table":"field_consumables","access":"find stone ladder"}],
+      "states":["unvisited","echoing","silent","harvested"]
+    },
+    {
+      "id":"FOR-007","name":"Moonwell Clearing","region":"forbidden_forest","pin":[287,474],"type":"ritual_arena","danger":4,
+      "visible_cue":"A circular pool reflects a different phase of the moon.","hidden_cue":"Moving three silver bowls changes local gravity.",
+      "encounter_pool":["FOR-E02","FOR-E04"],"terrain":["gravity_wells","silver_bowls","reflective_pool"],
+      "spell_affordances":["levitate bowls into orbit","pull enemies through gravity shifts","break reflections with force"],
+      "loot_nodes":[{"id":"n1","kind":"moonwell_silt","table":"rare_ingredients","access":"stabilize gravity"},{"id":"n2","kind":"ritual_niche","table":"warding_components","access":"match moon phase"}],
+      "states":["unvisited","misaligned","stable","drained"]
+    },
+    {
+      "id":"FOR-008","name":"Root Gate","region":"forbidden_forest","pin":[128,421],"type":"spellwork_gate","danger":4,
+      "visible_cue":"Two trees have grown into an arch around empty darkness.","hidden_cue":"The gate responds to sustained shape and intent, not an incantation.",
+      "encounter_pool":["FOR-E01","FOR-E03"],"terrain":["living_arch","root_levers","dark_threshold"],
+      "spell_affordances":["weave force into a stable line","hold multiple roots airborne","use light to define a doorway"],
+      "loot_nodes":[{"id":"n1","kind":"root_socket","table":"arcane_components","access":"partially open gate"},{"id":"n2","kind":"threshold_cache","table":"duelling_rewards","access":"cross and return"}],
+      "states":["unvisited","dormant","responsive","opened"]
+    },
+
+    {
+      "id":"VAL-001","name":"Collapsed Watchtower","region":"highland_valley","pin":[536,493],"type":"combat_site","danger":2,
+      "visible_cue":"Smoke rises from a tower with no intact chimney.","hidden_cue":"A fallen stair conceals a dry cellar.",
+      "encounter_pool":["VAL-E01","VAL-E04"],"terrain":["fallen_masonry","rope_ladder","oil_brazier"],
+      "spell_affordances":["drop masonry","pull ladder away","levitate through broken floors"],
+      "loot_nodes":[{"id":"n1","kind":"cellar_chest","table":"field_consumables","access":"clear stair rubble"},{"id":"n2","kind":"lookout_pack","table":"poacher_spoils","access":"reach roof"}],
+      "states":["unvisited","occupied","cleared","reoccupied"]
+    },
+    {
+      "id":"VAL-002","name":"Broken Millrace","region":"highland_valley","pin":[604,449],"type":"mechanical_puzzle","danger":2,
+      "visible_cue":"The wheel turns although the channel is dry.","hidden_cue":"Stored rotational force powers a buried door.",
+      "encounter_pool":["VAL-E02","VAL-E03"],"terrain":["mill_gears","dry_channel","grain_dust"],
+      "spell_affordances":["arrest or reverse wheel","pull sluice controls","ignite dust at risk"],
+      "loot_nodes":[{"id":"n1","kind":"miller_vault","table":"village_provisions","access":"route stored force"},{"id":"n2","kind":"gearbox","table":"precision_components","access":"stop wheel safely"}],
+      "states":["unvisited","spinning","powered","broken"]
+    },
+    {
+      "id":"VAL-003","name":"Riverglass Cave","region":"highland_valley","pin":[651,512],"type":"micro_dungeon","danger":3,
+      "visible_cue":"Sunlight refracts from the riverbank at night.","hidden_cue":"Crystal panels replay force as delayed echoes.",
+      "encounter_pool":["VAL-E02","VAL-E04"],"terrain":["crystal_panels","shallow_current","narrow_shelves"],
+      "spell_affordances":["bank a spell echo","redirect light","pull crystals into cover"],
+      "loot_nodes":[{"id":"n1","kind":"crystal_vein","table":"arcane_components","access":"avoid shattering vein"},{"id":"n2","kind":"drowned_cache","table":"lake_salvage","access":"cross current"}],
+      "states":["unvisited","resonant","fractured","quiet"]
+    },
+    {
+      "id":"VAL-004","name":"Briarhollow Orchard","region":"highland_valley","pin":[579,559],"type":"beast_hazard","danger":2,
+      "visible_cue":"Apples orbit one dead tree instead of falling.","hidden_cue":"The scarecrows are anchored to underground roots.",
+      "encounter_pool":["VAL-E01","VAL-E03"],"terrain":["orbiting_fruit","thorn_rows","animated_scarecrows"],
+      "spell_affordances":["redirect fruit volleys","pull root anchors","levitate over thorns"],
+      "loot_nodes":[{"id":"n1","kind":"orchard_harvest","table":"botanical_ingredients","access":"calm the tree"},{"id":"n2","kind":"farm_lockbox","table":"village_provisions","access":"disable scarecrows"}],
+      "states":["unvisited","agitated","calmed","blighted"]
+    },
+    {
+      "id":"VAL-005","name":"Standing-Stone Quarry","region":"highland_valley","pin":[707,462],"type":"combat_puzzle","danger":3,
+      "visible_cue":"Freshly cut monoliths stand unsupported in the quarry.","hidden_cue":"Each stone stores the direction of its last impact.",
+      "encounter_pool":["VAL-E01","VAL-E04"],"terrain":["suspended_blocks","quarry_crane","blast_holes"],
+      "spell_affordances":["release stored impacts","swing crane hook","raise stone cover"],
+      "loot_nodes":[{"id":"n1","kind":"foreman_box","table":"utility_gear","access":"reach crane"},{"id":"n2","kind":"rune_cuttings","table":"warding_components","access":"inspect monoliths"}],
+      "states":["unvisited","worked","abandoned","collapsed"]
+    },
+    {
+      "id":"VAL-006","name":"Sunken Sheepfold","region":"highland_valley","pin":[742,535],"type":"rescue_hazard","danger":2,
+      "visible_cue":"A stone pen sinks deeper into peat each hour.","hidden_cue":"Buried iron rails can spread the structure's weight.",
+      "encounter_pool":["VAL-E02","VAL-E03"],"terrain":["deep_mud","tilting_walls","buried_rails"],
+      "spell_affordances":["levitate animals","pull rails into braces","force drainage channels"],
+      "loot_nodes":[{"id":"n1","kind":"shepherd_cache","table":"field_consumables","access":"stabilize fold"},{"id":"n2","kind":"peat_growth","table":"botanical_ingredients","access":"drain mud"}],
+      "states":["unvisited","sinking","stabilized","lost"]
+    },
+    {
+      "id":"VAL-007","name":"Ash Cart Ravine","region":"highland_valley","pin":[627,604],"type":"moving_ambush","danger":3,
+      "visible_cue":"Driverless mine carts climb a ravine against gravity.","hidden_cue":"Switch levers redirect every cart through one choke point.",
+      "encounter_pool":["VAL-E01","VAL-E04"],"terrain":["moving_carts","switch_tracks","powder_crates"],
+      "spell_affordances":["pull track switches","levitate between carts","detonate powder selectively"],
+      "loot_nodes":[{"id":"n1","kind":"ore_cart","table":"arcane_components","access":"stop intact cart"},{"id":"n2","kind":"guard_cache","table":"poacher_spoils","access":"take upper platform"}],
+      "states":["unvisited","running","derailed","controlled"]
+    },
+    {
+      "id":"VAL-008","name":"Barrow Door Field","region":"highland_valley","pin":[781,590],"type":"crypt_entry","danger":4,
+      "visible_cue":"Seven freestanding doors face different hills.","hidden_cue":"Only the door whose shadow points underground is physical.",
+      "encounter_pool":["VAL-E02","VAL-E03"],"terrain":["false_doors","burial_mounds","shifting_shadows"],
+      "spell_affordances":["move doors to test weight","control light and shadows","force open a stone latch"],
+      "loot_nodes":[{"id":"n1","kind":"barrow_niche","table":"curio_cache","access":"find physical door"},{"id":"n2","kind":"ward_box","table":"warding_components","access":"close door behind you"}],
+      "states":["unvisited","sealed","open","disturbed"]
+    },
+
+    {
+      "id":"CST-001","name":"Sunken Chapel","region":"coast","pin":[756,782],"type":"tide_dungeon","danger":4,
+      "visible_cue":"A chapel roof surfaces between waves at low tide.","hidden_cue":"Its bell creates a six-second air pocket.",
+      "encounter_pool":["CST-E01","CST-E04"],"terrain":["rising_tide","bell_rope","floating_pews"],
+      "spell_affordances":["levitate pews as rafts","pull bell remotely","force jammed floodgates"],
+      "loot_nodes":[{"id":"n1","kind":"altar_compartment","table":"warding_components","access":"reach before tide"},{"id":"n2","kind":"drowned_reliquary","table":"coastal_curios","access":"use bell air pocket"}],
+      "states":["unvisited","submerged","accessible","drained"]
+    },
+    {
+      "id":"CST-002","name":"Stormwatch Underworks","region":"coast","pin":[842,671],"type":"large_dungeon","danger":4,
+      "visible_cue":"Lightning travels down the cliff instead of up.","hidden_cue":"Three entrances converge on a turbine chamber.",
+      "encounter_pool":["CST-E01","CST-E03","CST-E04"],"terrain":["conductive_rails","turbine_room","cliff_lifts"],
+      "spell_affordances":["route current through rails","reverse lifts","use turbine wind for movement"],
+      "loot_nodes":[{"id":"n1","kind":"turbine_core","table":"precision_components","access":"stop turbine"},{"id":"n2","kind":"smuggler_vault","table":"contraband_minor","access":"open from two sides"},{"id":"n3","kind":"storm_roost","table":"aerial_ingredients","access":"reach exterior crown"}],
+      "states":["unvisited","energized","occupied","secured"]
+    },
+    {
+      "id":"CST-003","name":"Wreck of the Silver Minnow","region":"coast","pin":[688,842],"type":"salvage_site","danger":3,
+      "visible_cue":"A shipwreck shifts position without the tide.","hidden_cue":"The intact mast points toward submerged cargo.",
+      "encounter_pool":["CST-E02","CST-E04"],"terrain":["tilting_deck","snapped_rigging","deep_water"],
+      "spell_affordances":["pull rigging into bridges","levitate cargo","break hull sections for escape"],
+      "loot_nodes":[{"id":"n1","kind":"captain_chest","table":"coastal_curios","access":"reach stern cabin"},{"id":"n2","kind":"cargo_net","table":"lake_salvage","access":"follow mast bearing"}],
+      "states":["unvisited","adrift","anchored","stripped"]
+    },
+    {
+      "id":"CST-004","name":"Saltglass Blowholes","region":"coast","pin":[619,758],"type":"hazard_cavern","danger":3,
+      "visible_cue":"Sea spray hardens into glass in midair.","hidden_cue":"Timed pressure bursts expose a crystal chimney.",
+      "encounter_pool":["CST-E01","CST-E02"],"terrain":["pressure_geysers","glass_shelves","wave_tunnels"],
+      "spell_affordances":["shield against geysers","pull loose glass as barriers","ride levitated shelves"],
+      "loot_nodes":[{"id":"n1","kind":"saltglass_vein","table":"arcane_components","access":"time pressure cycle"},{"id":"n2","kind":"washed_cache","table":"field_consumables","access":"reach wave tunnel"}],
+      "states":["unvisited","pressurized","vented","shattered"]
+    },
+    {
+      "id":"CST-005","name":"Cliffside Smuggler Lift","region":"coast","pin":[806,733],"type":"combat_vertical","danger":3,
+      "visible_cue":"An empty cage lift descends whenever gulls scatter.","hidden_cue":"Cutting neither cable but moving both counterweights unlocks a cave.",
+      "encounter_pool":["CST-E03","CST-E04"],"terrain":["lift_cages","counterweights","cliff_ledges"],
+      "spell_affordances":["swap counterweights","swing lift cage","pull enemies from ladders"],
+      "loot_nodes":[{"id":"n1","kind":"customs_crate","table":"contraband_minor","access":"open hidden cave"},{"id":"n2","kind":"winch_box","table":"utility_gear","access":"take upper control"}],
+      "states":["unvisited","operating","jammed","captured"]
+    },
+    {
+      "id":"CST-006","name":"Sirenstone Pools","region":"coast","pin":[571,825],"type":"sensory_puzzle","danger":3,
+      "visible_cue":"Each tidal pool repeats a different nearby sound.","hidden_cue":"One pool repeats sounds that have not happened yet.",
+      "encounter_pool":["CST-E02","CST-E03"],"terrain":["echo_pools","slick_rocks","incoming_tide"],
+      "spell_affordances":["use echoes to predict attacks","move stones between pools","light reveals sound ripples"],
+      "loot_nodes":[{"id":"n1","kind":"future_pool","table":"coastal_curios","access":"identify true echo"},{"id":"n2","kind":"tide_cluster","table":"rare_ingredients","access":"harvest on silent beat"}],
+      "states":["unvisited","singing","silenced","charted"]
+    },
+    {
+      "id":"CST-007","name":"Black Kelp Grotto","region":"coast","pin":[733,903],"type":"beast_den","danger":4,
+      "visible_cue":"Kelp crawls inland whenever a wand lights.","hidden_cue":"Its central bulb controls every strand in the cave.",
+      "encounter_pool":["CST-E01","CST-E04"],"terrain":["grasping_kelp","air_pockets","underwater_tunnel"],
+      "spell_affordances":["lure kelp with light","levitate through air pockets","pull central bulb free"],
+      "loot_nodes":[{"id":"n1","kind":"kelp_bulb","table":"rare_ingredients","access":"sever intact"},{"id":"n2","kind":"skeleton_pack","table":"coastal_curios","access":"cross underwater tunnel"}],
+      "states":["unvisited","hunting","dormant","harvested"]
+    },
+    {
+      "id":"CST-008","name":"Thunderbird Needle","region":"coast","pin":[904,811],"type":"landmark_climb","danger":5,
+      "visible_cue":"A needle of rock attracts horizontal lightning.","hidden_cue":"Old copper rings create safe intervals up the ascent.",
+      "encounter_pool":["CST-E02","CST-E03"],"terrain":["lightning_arcs","copper_rings","sheer_climb"],
+      "spell_affordances":["pull between copper anchors","levitate loose rock shields","redirect arcs through rings"],
+      "loot_nodes":[{"id":"n1","kind":"summit_nest","table":"aerial_ingredients","access":"reach summit without harming nest"},{"id":"n2","kind":"struck_cache","table":"duelling_rewards","access":"ground final arc"}],
+      "states":["unvisited","storming","grounded","claimed"]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version":1,
+  "enemy_archetypes":[
+    {"id":"school_construct","role":"skirmisher","hp_band":"low","attack_band":"low","tools":["shove","mark_target"],"weakness_tags":["force","mechanism"]},
+    {"id":"animated_hazard","role":"controller","hp_band":"medium","attack_band":"low","tools":["zone_denial","restrain"],"weakness_tags":["light","environment"]},
+    {"id":"village_thief","role":"skirmisher","hp_band":"low","attack_band":"medium","tools":["smoke","disengage","steal"],"weakness_tags":["control"]},
+    {"id":"rogue_construct","role":"swarm","hp_band":"fragile","attack_band":"low","tools":["surround","interrupt"],"weakness_tags":["force","mechanism"]},
+    {"id":"poacher_duellist","role":"striker","hp_band":"medium","attack_band":"medium","tools":["basic_cast","dodge","cage_release"],"weakness_tags":["control","terrain"]},
+    {"id":"poacher_handler","role":"controller","hp_band":"medium","attack_band":"low","tools":["net","beast_command","smoke"],"weakness_tags":["disarm","forced_movement"]},
+    {"id":"forest_spider","role":"ambusher","hp_band":"low","attack_band":"medium","tools":["web","venom","ceiling_move"],"weakness_tags":["fire","light"]},
+    {"id":"forest_beast","role":"brute","hp_band":"high","attack_band":"medium","tools":["charge","knockdown","flee_when_hurt"],"weakness_tags":["control","bait"]},
+    {"id":"ward_echo","role":"controller","hp_band":"medium","attack_band":"medium","tools":["repeat_spell","silence_zone"],"weakness_tags":["pattern","disruption"]},
+    {"id":"inferius_drifter","role":"brute","hp_band":"high","attack_band":"medium","tools":["grapple","rise_again"],"weakness_tags":["fire"]},
+    {"id":"coastal_scavenger","role":"skirmisher","hp_band":"medium","attack_band":"medium","tools":["drag","dive","pack_move"],"weakness_tags":["light","forced_movement"]},
+    {"id":"storm_wisp","role":"artillery","hp_band":"fragile","attack_band":"high","tools":["arc","teleport_to_conductor"],"weakness_tags":["grounding","insulation"]}
+  ],
+  "templates":[
+    {"id":"HOG-E01","name":"Caretaker Constructs","mode":"combat","danger":2,"actors":[["school_construct",2],["animated_hazard",1]],"objective":"cross or disable the work zone","twists":["one construct repairs another","breaking scenery opens a shortcut"],"reward_tables":["school_cache","precision_components"]},
+    {"id":"HOG-E02","name":"Escaped Greenhouse Growth","mode":"hazard","danger":2,"actors":[["animated_hazard",2]],"objective":"reach and isolate the central root","twists":["steam accelerates growth","light changes its target"],"reward_tables":["botanical_ingredients"]},
+    {"id":"HOG-E03","name":"Misfiring Training Circuit","mode":"challenge","danger":2,"actors":[["school_construct",3]],"objective":"score control, force and defence interactions","twists":["arena changes elevation","a perfect defence exposes the core"],"reward_tables":["duelling_rewards"]},
+    {"id":"HOG-E04","name":"Castle Scavengers","mode":"combat","danger":2,"actors":[["rogue_construct",4]],"objective":"protect fragile terrain while clearing swarm","twists":["swarm steals one loose item","noise attracts faculty"],"reward_tables":["school_cache"]},
+
+    {"id":"HSM-E01","name":"Rooftop Runners","mode":"chase","danger":2,"actors":[["village_thief",2]],"objective":"catch, escape or recover a carried object","twists":["route splits vertically","crowded street penalizes reckless force"],"reward_tables":["contraband_minor"]},
+    {"id":"HSM-E02","name":"Workshop Malfunction","mode":"puzzle_combat","danger":2,"actors":[["rogue_construct",5]],"objective":"shut down three moving mechanisms","twists":["destroying parts reduces salvage","master control works once"],"reward_tables":["precision_components","village_provisions"]},
+    {"id":"HSM-E03","name":"Illegal Duel","mode":"combat","danger":3,"actors":[["poacher_duellist",2]],"objective":"win, escape or interrupt the exchange","twists":["bystanders become moving cover","one duellist tries to bargain when isolated"],"reward_tables":["duelling_rewards"]},
+    {"id":"HSM-E04","name":"Midnight Handlers","mode":"rescue_combat","danger":3,"actors":[["poacher_handler",1],["poacher_duellist",2]],"objective":"free captives without causing a stampede","twists":["opened pens change terrain","handlers flee with the lockbox"],"reward_tables":["poacher_spoils","beast_ingredients"]},
+
+    {"id":"FOR-E01","name":"Webline Ambush","mode":"combat","danger":3,"actors":[["forest_spider",4]],"objective":"break the ambush and preserve an exit","twists":["webbed objects can become weapons","egg sacs hatch if struck"],"reward_tables":["forest_ingredients"]},
+    {"id":"FOR-E02","name":"Living Path Test","mode":"navigation","danger":2,"actors":[["animated_hazard",1]],"objective":"identify and traverse the real route","twists":["spoken words alter paths","light reveals one truth and hides another"],"reward_tables":["curio_cache"]},
+    {"id":"FOR-E03","name":"Poacher Forward Team","mode":"combat","danger":3,"actors":[["poacher_handler",1],["poacher_duellist",2]],"objective":"disrupt capture equipment or pass unseen","twists":["caged beast may join either side","signal flare advances local alert"],"reward_tables":["poacher_spoils"]},
+    {"id":"FOR-E04","name":"Territorial Beast","mode":"beast_encounter","danger":4,"actors":[["forest_beast",1]],"objective":"drive off, calm, trap or defeat the beast","twists":["it protects a nest","terrain gives a nonlethal solution"],"reward_tables":["beast_ingredients","rare_ingredients"]},
+
+    {"id":"VAL-E01","name":"Roadside Poacher Crew","mode":"combat","danger":3,"actors":[["poacher_duellist",3]],"objective":"break formation or steal their transport","twists":["one holds a terrain trigger","survivors may relocate"],"reward_tables":["poacher_spoils"]},
+    {"id":"VAL-E02","name":"Unstable Old Magic","mode":"hazard","danger":3,"actors":[["ward_echo",1]],"objective":"stabilize or safely discharge three nodes","twists":["last spell is repeated","gravity shifts each round"],"reward_tables":["arcane_components"]},
+    {"id":"VAL-E03","name":"Hamlet Emergency","mode":"rescue","danger":2,"actors":[["animated_hazard",2]],"objective":"save people, animals or structure before collapse","twists":["loot is lost if rescue is ignored","clever force creates a faster route"],"reward_tables":["village_provisions","field_consumables"]},
+    {"id":"VAL-E04","name":"Ruin Occupation","mode":"combat","danger":3,"actors":[["poacher_handler",1],["poacher_duellist",3]],"objective":"take or bypass a defensible site","twists":["alarm adds a reinforcement clock","environment can split enemies"],"reward_tables":["duelling_rewards","poacher_spoils"]},
+
+    {"id":"CST-E01","name":"Tidal Predators","mode":"combat","danger":4,"actors":[["coastal_scavenger",4]],"objective":"survive the tide cycle and secure footing","twists":["water level changes routes","light repels but enrages one predator"],"reward_tables":["coastal_curios","rare_ingredients"]},
+    {"id":"CST-E02","name":"Stormfront Crossing","mode":"hazard","danger":4,"actors":[["storm_wisp",2]],"objective":"ground three arcs or reach shelter","twists":["metal gear becomes a target","wisps jump to moved conductors"],"reward_tables":["aerial_ingredients","arcane_components"]},
+    {"id":"CST-E03","name":"Cliff Smugglers","mode":"vertical_combat","danger":3,"actors":[["village_thief",1],["poacher_duellist",3]],"objective":"control lifts and prevent cargo escape","twists":["cut cargo becomes falling terrain","leader abandons allies for vault"],"reward_tables":["contraband_minor"]},
+    {"id":"CST-E04","name":"Drowned Ward","mode":"combat_puzzle","danger":4,"actors":[["inferius_drifter",2],["ward_echo",1]],"objective":"restore, break or outrun a flooded ward","twists":["fire is difficult but decisive","the ward repeats movement spells"],"reward_tables":["warding_components","coastal_curios"]}
+  ]
+}
