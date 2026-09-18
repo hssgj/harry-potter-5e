@@ -1,0 +1,841 @@
+{
+  "status": "AUDIT_PROPOSAL",
+  "items": [
+    {
+      "id": "gear_duellists_wristloop",
+      "name": "Duellist's Wristloop",
+      "rarity": "uncommon",
+      "slot": "wand_accessory",
+      "tags": [
+        "duelling",
+        "reaction"
+      ],
+      "effect": "Once per scene, retain grip on the wand when disarmed or forcibly moved.",
+      "category": "gear",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "scene",
+      "duration_seconds": 60
+    },
+    {
+      "id": "gear_counterweight_buckle",
+      "name": "Counterweight Buckle",
+      "rarity": "uncommon",
+      "slot": "belt",
+      "tags": [
+        "movement",
+        "force"
+      ],
+      "effect": "Once per scene, reduce involuntary movement by 3 m or add 1.5 m to your own pull-assisted movement.",
+      "category": "gear",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "scene",
+      "duration_seconds": 60
+    },
+    {
+      "id": "gear_stormglass_lens",
+      "name": "Stormglass Lens",
+      "rarity": "rare",
+      "slot": "tool",
+      "tags": [
+        "light",
+        "storm",
+        "inspection"
+      ],
+      "effect": "Reveals the next conductive path of visible magical electricity.",
+      "category": "gear",
+      "price": 25,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "gear_folded_cauldron",
+      "name": "Folded Field Cauldron",
+      "rarity": "uncommon",
+      "slot": "tool",
+      "tags": [
+        "brewing",
+        "camp"
+      ],
+      "effect": "Expands into a small stable cauldron; enables safe field brewing with proper ingredients.",
+      "category": "gear",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "gear_silkstep_wraps",
+      "name": "Silkstep Shoe Wraps",
+      "rarity": "uncommon",
+      "slot": "boots",
+      "tags": [
+        "stealth",
+        "web"
+      ],
+      "effect": "Ignore the first patch of ordinary sticky or webbed terrain each scene.",
+      "category": "gear",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "scene",
+      "duration_seconds": 60
+    },
+    {
+      "id": "gear_echo_compass",
+      "name": "Echo Compass",
+      "rarity": "rare",
+      "slot": "tool",
+      "tags": [
+        "navigation",
+        "sound"
+      ],
+      "effect": "Points toward the source of the last sound deliberately recorded into it.",
+      "category": "gear",
+      "price": 25,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "gear_tidebreather_reed",
+      "name": "Tidebreather Reed",
+      "rarity": "rare",
+      "slot": "tool",
+      "tags": [
+        "water",
+        "limited"
+      ],
+      "charges": 3,
+      "effect": "Creates a short breath of air underwater; one charge per use.",
+      "category": "gear",
+      "price": 25,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 6
+    },
+    {
+      "id": "gear_quarry_grip_gloves",
+      "name": "Quarry-Grip Gloves",
+      "rarity": "uncommon",
+      "slot": "hands",
+      "tags": [
+        "climb",
+        "object"
+      ],
+      "effect": "Advantage when holding a ledge or resisting an object pulled from your hands.",
+      "category": "gear",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "gear_mothveil_lantern",
+      "name": "Mothveil Lantern",
+      "rarity": "rare",
+      "slot": "tool",
+      "tags": [
+        "light",
+        "beast"
+      ],
+      "effect": "Its hooded green light attracts small light-sensitive creatures without illuminating the bearer.",
+      "category": "gear",
+      "price": 25,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "gear_recall_chalk_case",
+      "name": "Recall Chalk Case",
+      "rarity": "uncommon",
+      "slot": "tool",
+      "tags": [
+        "map",
+        "route"
+      ],
+      "effect": "Three marks remain faintly visible to the owner through fog, darkness and common concealment.",
+      "category": "gear",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "con_fizzing_focus",
+      "name": "Fizzing Focus Draught",
+      "rarity": "common",
+      "tags": [
+        "potion",
+        "focus"
+      ],
+      "effect": "Ignore one minor environmental distraction on the next spell attempt this scene.",
+      "category": "consumables",
+      "price": 2,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60,
+      "consume": true
+    },
+    {
+      "id": "con_gripwax",
+      "name": "Spellgrip Wax",
+      "rarity": "common",
+      "tags": [
+        "wand",
+        "utility"
+      ],
+      "effect": "For one scene, gain advantage against being disarmed by mundane means.",
+      "category": "consumables",
+      "price": 2,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60,
+      "consume": true
+    },
+    {
+      "id": "con_silver_smoke_pellet",
+      "name": "Silver Smoke Pellet",
+      "rarity": "uncommon",
+      "tags": [
+        "escape",
+        "smoke"
+      ],
+      "effect": "Creates a brief 3 m obscured cloud that glitters around moving creatures.",
+      "category": "consumables",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60,
+      "consume": true
+    },
+    {
+      "id": "con_snapvine_cord",
+      "name": "Snapvine Cord",
+      "rarity": "uncommon",
+      "tags": [
+        "restraint",
+        "plant"
+      ],
+      "effect": "Thrown cord attempts to bind a small object or already-controlled creature; single use.",
+      "category": "consumables",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60,
+      "consume": true
+    },
+    {
+      "id": "con_warming_pearl",
+      "name": "Warming Pearl",
+      "rarity": "common",
+      "tags": [
+        "cold",
+        "water"
+      ],
+      "effect": "Keeps one person warm and functional for ten minutes in severe cold or wet.",
+      "category": "consumables",
+      "price": 2,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60,
+      "consume": true
+    },
+    {
+      "id": "con_bottled_tailwind",
+      "name": "Bottled Tailwind",
+      "rarity": "rare",
+      "tags": [
+        "movement",
+        "air"
+      ],
+      "effect": "On breaking, pushes everything unsecured in a narrow 6 m line.",
+      "category": "consumables",
+      "price": 25,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60,
+      "consume": true
+    },
+    {
+      "id": "con_flash_sugar",
+      "name": "Flash Sugar",
+      "rarity": "common",
+      "tags": [
+        "light",
+        "distraction"
+      ],
+      "effect": "Creates a harmless brilliant crackle when crushed.",
+      "category": "consumables",
+      "price": 2,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60,
+      "consume": true
+    },
+    {
+      "id": "con_quiet_mint",
+      "name": "Quiet Mint",
+      "rarity": "uncommon",
+      "tags": [
+        "stealth",
+        "voice"
+      ],
+      "effect": "For one minute, the user's breath and involuntary noises are suppressed; deliberate speech ends it.",
+      "category": "consumables",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60,
+      "consume": true
+    },
+    {
+      "id": "con_quickseal_resin",
+      "name": "Quickseal Resin",
+      "rarity": "uncommon",
+      "tags": [
+        "repair",
+        "water"
+      ],
+      "effect": "Seals one hand-sized crack against water or air for one scene.",
+      "category": "consumables",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60,
+      "consume": true
+    },
+    {
+      "id": "con_spider_salt",
+      "name": "Spider Salt",
+      "rarity": "common",
+      "tags": [
+        "beast",
+        "repellent"
+      ],
+      "effect": "A short line repels ordinary spiders and discourages giant spiders until disturbed.",
+      "category": "consumables",
+      "price": 2,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60,
+      "consume": true
+    },
+    {
+      "id": "ing_lantern_moth_dust",
+      "name": "Lantern-Moth Dust",
+      "rarity": "uncommon",
+      "tags": [
+        "light",
+        "powder"
+      ],
+      "use": "Light-guidance and reveal mixtures.",
+      "category": "ingredients",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "crafting",
+      "resolution": "ingredient",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "ing_moonwell_silt",
+      "name": "Moonwell Silt",
+      "rarity": "rare",
+      "tags": [
+        "gravity",
+        "lunar"
+      ],
+      "use": "Suspension and weight-altering brews.",
+      "category": "ingredients",
+      "price": 25,
+      "currency": "audit trade units",
+      "activation": "crafting",
+      "resolution": "ingredient",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "ing_saltglass_shard",
+      "name": "Saltglass Shard",
+      "rarity": "uncommon",
+      "tags": [
+        "water",
+        "resonance"
+      ],
+      "use": "Sound storage and pressure components.",
+      "category": "ingredients",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "crafting",
+      "resolution": "ingredient",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "ing_whispercap_gill",
+      "name": "Whispercap Gill",
+      "rarity": "uncommon",
+      "tags": [
+        "sound",
+        "fungus"
+      ],
+      "use": "Echo, silence and memory mixtures.",
+      "category": "ingredients",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "crafting",
+      "resolution": "ingredient",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "ing_black_kelp_bulb",
+      "name": "Black Kelp Bulb",
+      "rarity": "rare",
+      "tags": [
+        "water",
+        "grasping"
+      ],
+      "use": "Breathing aids and binding compounds.",
+      "category": "ingredients",
+      "price": 25,
+      "currency": "audit trade units",
+      "activation": "crafting",
+      "resolution": "ingredient",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "ing_spider_silk_clean",
+      "name": "Clean Giant-Spider Silk",
+      "rarity": "uncommon",
+      "tags": [
+        "silk",
+        "binding"
+      ],
+      "use": "Cords, wand wraps and restraint recipes.",
+      "category": "ingredients",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "crafting",
+      "resolution": "ingredient",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "ing_orbit_apple_seed",
+      "name": "Orbit-Apple Seed",
+      "rarity": "uncommon",
+      "tags": [
+        "plant",
+        "levitation"
+      ],
+      "use": "Motion-sensitive planting and levitation experiments.",
+      "category": "ingredients",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "crafting",
+      "resolution": "ingredient",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "ing_storm_roost_quill",
+      "name": "Storm-Roost Quill",
+      "rarity": "rare",
+      "tags": [
+        "air",
+        "electric"
+      ],
+      "use": "Conductive writing, weather and reaction components.",
+      "category": "ingredients",
+      "price": 25,
+      "currency": "audit trade units",
+      "activation": "crafting",
+      "resolution": "ingredient",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "ing_rootheart_fibre",
+      "name": "Rootheart Fibre",
+      "rarity": "rare",
+      "tags": [
+        "plant",
+        "ward"
+      ],
+      "use": "Living wards and self-tightening repairs.",
+      "category": "ingredients",
+      "price": 25,
+      "currency": "audit trade units",
+      "activation": "crafting",
+      "resolution": "ingredient",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "ing_mooncalf_feedstone",
+      "name": "Mooncalf Feedstone",
+      "rarity": "uncommon",
+      "tags": [
+        "beast",
+        "lunar"
+      ],
+      "use": "Calming lures and nocturnal beast care.",
+      "category": "ingredients",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "crafting",
+      "resolution": "ingredient",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "ing_peat_bloom",
+      "name": "Peat Bloom",
+      "rarity": "common",
+      "tags": [
+        "earth",
+        "healing"
+      ],
+      "use": "Stabilizers and basic restorative brewing.",
+      "category": "ingredients",
+      "price": 2,
+      "currency": "audit trade units",
+      "activation": "crafting",
+      "resolution": "ingredient",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "ing_riverglass_flake",
+      "name": "Riverglass Flake",
+      "rarity": "rare",
+      "tags": [
+        "echo",
+        "force"
+      ],
+      "use": "Delayed-force components and experimental focuses.",
+      "category": "ingredients",
+      "price": 25,
+      "currency": "audit trade units",
+      "activation": "crafting",
+      "resolution": "ingredient",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "cmp_brass_memory_spring",
+      "name": "Brass Memory Spring",
+      "rarity": "uncommon",
+      "tags": [
+        "mechanism",
+        "repeat"
+      ],
+      "socket_tags": [
+        "tool"
+      ],
+      "effect": "A crafted tool may repeat its last simple mechanical motion once.",
+      "category": "components-curios",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "cmp_silver_resonance_wire",
+      "name": "Silver Resonance Wire",
+      "rarity": "rare",
+      "tags": [
+        "sound",
+        "spell"
+      ],
+      "socket_tags": [
+        "wand_accessory",
+        "ward"
+      ],
+      "effect": "Carries one chosen vibration between two connected points.",
+      "category": "components-curios",
+      "price": 25,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "cmp_ward_nail_set",
+      "name": "Matched Ward Nails",
+      "rarity": "uncommon",
+      "tags": [
+        "ward",
+        "anchor"
+      ],
+      "socket_tags": [
+        "camp",
+        "ward"
+      ],
+      "effect": "Anchors a temporary boundary or stabilizes a damaged circle.",
+      "category": "components-curios",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "cmp_counterweight_core",
+      "name": "Miniature Counterweight Core",
+      "rarity": "rare",
+      "tags": [
+        "force",
+        "balance"
+      ],
+      "socket_tags": [
+        "gear",
+        "tool"
+      ],
+      "effect": "Lets a crafted object balance against an apparently impossible load.",
+      "category": "components-curios",
+      "price": 25,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "cmp_stormground_ring",
+      "name": "Stormground Ring",
+      "rarity": "rare",
+      "tags": [
+        "electric",
+        "defence"
+      ],
+      "socket_tags": [
+        "gear",
+        "ward"
+      ],
+      "effect": "A fitted item can safely ground one minor magical arc before needing repair.",
+      "category": "components-curios",
+      "price": 25,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "cmp_moonglass_prism",
+      "name": "Moonglass Prism",
+      "rarity": "rare",
+      "tags": [
+        "reveal",
+        "lunar"
+      ],
+      "socket_tags": [
+        "lantern",
+        "focus"
+      ],
+      "effect": "Separates layered magical traces into distinct visible colors.",
+      "category": "components-curios",
+      "price": 25,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "cmp_tide_lock",
+      "name": "Tide Lock",
+      "rarity": "uncommon",
+      "tags": [
+        "water",
+        "mechanism"
+      ],
+      "socket_tags": [
+        "container",
+        "door"
+      ],
+      "effect": "Opens only at a chosen water level.",
+      "category": "components-curios",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "cmp_echo_flagstone_chip",
+      "name": "Echo-Flagstone Chip",
+      "rarity": "rare",
+      "tags": [
+        "force",
+        "storage"
+      ],
+      "socket_tags": [
+        "trap",
+        "focus"
+      ],
+      "effect": "Stores a weak physical impulse and releases it when tapped.",
+      "category": "components-curios",
+      "price": 25,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "cur_map_that_avoids_you",
+      "name": "Map That Avoids You",
+      "rarity": "rare",
+      "tags": [
+        "curio",
+        "map"
+      ],
+      "effect": "Draws nearby routes except the one currently occupied by its holder.",
+      "category": "components-curios",
+      "price": 25,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "cur_future_echo_shell",
+      "name": "Future-Echo Shell",
+      "rarity": "rare",
+      "tags": [
+        "curio",
+        "sound"
+      ],
+      "effect": "Once per day, produces one ambiguous sound likely to occur nearby within the next minute.",
+      "category": "components-curios",
+      "price": 25,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "day",
+      "duration_seconds": 60
+    },
+    {
+      "id": "cur_self_folding_letter",
+      "name": "Self-Folding Letter",
+      "rarity": "uncommon",
+      "tags": [
+        "curio",
+        "message"
+      ],
+      "effect": "Folds itself into a creature indicating the writer's mood.",
+      "category": "components-curios",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60
+    },
+    {
+      "id": "cur_gravity_shy_coin",
+      "name": "Gravity-Shy Coin",
+      "rarity": "uncommon",
+      "tags": [
+        "curio",
+        "gravity"
+      ],
+      "effect": "Falls sideways while watched and normally while ignored.",
+      "category": "components-curios",
+      "price": 8,
+      "currency": "audit trade units",
+      "activation": "action",
+      "resolution": "adjudicated",
+      "limit": "per_use",
+      "duration_seconds": 60
+    }
+  ],
+  "recipes": [
+    {
+      "id": "quiet_mint",
+      "inputs": {
+        "ing_whispercap_gill": 1,
+        "ing_peat_bloom": 1
+      },
+      "output": {
+        "con_quiet_mint": 1
+      },
+      "minutes": 30
+    },
+    {
+      "id": "snapvine",
+      "inputs": {
+        "ing_spider_silk_clean": 1,
+        "ing_rootheart_fibre": 1
+      },
+      "output": {
+        "con_snapvine_cord": 1
+      },
+      "minutes": 20
+    },
+    {
+      "id": "quickseal",
+      "inputs": {
+        "ing_peat_bloom": 2,
+        "ing_rootheart_fibre": 1
+      },
+      "output": {
+        "con_quickseal_resin": 1
+      },
+      "minutes": 20
+    }
+  ]
+}

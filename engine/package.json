@@ -1,1 +1,17 @@
-{"name":"hp5e-state-engine","version":"0.2.0","private":true,"type":"module","scripts":{"test":"node --test && node src/validate-content.js","validate":"node src/cli.js validate && node src/validate-content.js","status":"node src/cli.js status"},"engines":{"node":">=20"}}
+{
+  "name": "hp5e-state-engine",
+  "version": "0.3.0-audit.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test && node src/validate-content.js && node src/game-cli.js content",
+    "validate": "node src/cli.js validate && node src/validate-content.js",
+    "status": "node src/cli.js status",
+    "play": "node src/game-server.js",
+    "game": "node src/game-cli.js",
+    "audit": "node --test && node src/validate-content.js && node src/game-cli.js content && node scripts/audit-scenario.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

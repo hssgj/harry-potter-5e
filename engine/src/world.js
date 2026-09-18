@@ -33,7 +33,7 @@ export function transact(input, batch, expectedRevision) {
       check(ent.state===e.from,'stale entity state');
       const states=ent.allowed_states || (ent.kind==='encounter'?['active','escaped','cleared','withdrawn']:null);
       check(typeof e.to==='string' && e.to.trim() && (!states || states.includes(e.to)),'invalid state');
-      ent.state=e.to; refs.push(e.entity_id);
+      ent.state=e.to; if(ent.location_id) db.entities[ent.location_id].state=e.to; refs.push(e.entity_id);
       if(ent.poi_id) refs.push(ent.poi_id);
       if(ent.location_id) refs.push(ent.location_id);
     } else if(e.type==='loot_collect') {

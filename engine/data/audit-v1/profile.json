@@ -1,0 +1,46 @@
+{
+  "status": "AUDIT_PROPOSAL_NOT_PLAYED",
+  "name": "Matthael Daunt",
+  "timeskip_days": 21,
+  "summary": "Three weeks of basic tuition and supervised spell practice; no invented story discoveries.",
+  "hp": 30,
+  "ac": 12,
+  "attack": 4,
+  "dc": 12,
+  "saves": {
+    "str": -1,
+    "dex": 2,
+    "con": 1,
+    "wis": 2
+  },
+  "movement_m": 9,
+  "known": {
+    "basic_cast": 2,
+    "levioso": 2,
+    "accio": 2,
+    "incendio": 2,
+    "confringo": 2,
+    "expelliarmus": 2,
+    "protego": 2,
+    "lumos": 2,
+    "revelio": 2
+  },
+  "prepared": [
+    "levioso",
+    "accio",
+    "confringo",
+    "protego"
+  ],
+  "basic_cast_free_slot": true,
+  "start_poi": "HOG-001",
+  "inventory": {
+    "ebony_wand_dragon_essence": 1,
+    "wand_case": 1
+  },
+  "progress_thresholds": [
+    3,
+    6,
+    10
+  ],
+  "max_tier": 3
+}
