@@ -18,3 +18,7 @@ CANON = výslovně schválená fikce. NÁVRH = zatím nezamknuté řešení.
 Schválený směr pravidel není schválení každého čísla v návrhu.
 V budoucích odhaleních rozlišujeme pravdu světa a to, co ví postava; hráčova volba není předem napsaný výsledek.
 Hráčská část neodkazuje na konkrétní odhalení. Složka gm/ obsahuje označené spoilery; není zabezpečená proti majiteli repozitáře.
+
+## Integrated audit build
+
+The first playable engine/UI proposal is documented in [engine/docs/AUDIT_V1.md](engine/docs/AUDIT_V1.md). Run `cd engine && npm run audit`, then `npm run play` for the local interface. This is a separate playtest save; the live campaign timeskip and character are not silently activated.

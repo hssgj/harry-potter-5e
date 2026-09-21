@@ -1,0 +1,347 @@
+{
+  "status": "AUDIT_PROPOSAL",
+  "spells": [
+    {
+      "id": "basic_cast",
+      "name": "Basic Cast",
+      "category": "attack",
+      "action": "action",
+      "cooldown": 0,
+      "tiers": [
+        {
+          "tier": 1,
+          "strain": 0,
+          "range_m": 18,
+          "damage": "1d6",
+          "save": null,
+          "condition": null,
+          "duration_turns": 0
+        },
+        {
+          "tier": 2,
+          "strain": 1,
+          "range_m": 18,
+          "damage": "2d6",
+          "save": null,
+          "condition": null,
+          "duration_turns": 0
+        },
+        {
+          "tier": 3,
+          "strain": 2,
+          "range_m": 24,
+          "damage": "3d6",
+          "save": null,
+          "condition": null,
+          "duration_turns": 0
+        }
+      ],
+      "source": "CORE_v0.2 + audit proposal; higher tiers are unbalanced",
+      "requires_wand": true
+    },
+    {
+      "id": "levioso",
+      "name": "Levioso",
+      "category": "save",
+      "action": "action",
+      "cooldown": 2,
+      "tiers": [
+        {
+          "tier": 1,
+          "strain": 0,
+          "range_m": 9,
+          "damage": null,
+          "save": "con",
+          "condition": "airborne",
+          "duration_turns": 1
+        },
+        {
+          "tier": 2,
+          "strain": 1,
+          "range_m": 12,
+          "damage": null,
+          "save": "con",
+          "condition": "airborne",
+          "duration_turns": 2
+        },
+        {
+          "tier": 3,
+          "strain": 2,
+          "range_m": 18,
+          "damage": null,
+          "save": "con",
+          "condition": "airborne",
+          "duration_turns": 3
+        }
+      ],
+      "source": "CORE_v0.2 + audit proposal; higher tiers are unbalanced",
+      "requires_wand": true
+    },
+    {
+      "id": "accio",
+      "name": "Accio",
+      "category": "save",
+      "action": "action",
+      "cooldown": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "strain": 0,
+          "range_m": 9,
+          "damage": null,
+          "save": "str",
+          "condition": null,
+          "duration_turns": 0
+        },
+        {
+          "tier": 2,
+          "strain": 1,
+          "range_m": 12,
+          "damage": null,
+          "save": "str",
+          "condition": null,
+          "duration_turns": 0
+        },
+        {
+          "tier": 3,
+          "strain": 2,
+          "range_m": 18,
+          "damage": null,
+          "save": "str",
+          "condition": null,
+          "duration_turns": 0
+        }
+      ],
+      "source": "CORE_v0.2 + audit proposal; higher tiers are unbalanced",
+      "requires_wand": true
+    },
+    {
+      "id": "incendio",
+      "name": "Incendio",
+      "category": "save",
+      "action": "action",
+      "cooldown": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "strain": 0,
+          "range_m": 3,
+          "damage": "2d6",
+          "save": "dex",
+          "condition": null,
+          "duration_turns": 0
+        },
+        {
+          "tier": 2,
+          "strain": 1,
+          "range_m": 4.5,
+          "damage": "3d6",
+          "save": "dex",
+          "condition": null,
+          "duration_turns": 0
+        },
+        {
+          "tier": 3,
+          "strain": 2,
+          "range_m": 6,
+          "damage": "4d6",
+          "save": "dex",
+          "condition": null,
+          "duration_turns": 0
+        }
+      ],
+      "source": "CORE_v0.2 + audit proposal; higher tiers are unbalanced",
+      "requires_wand": true
+    },
+    {
+      "id": "confringo",
+      "name": "Confringo",
+      "category": "attack",
+      "action": "action",
+      "cooldown": 2,
+      "tiers": [
+        {
+          "tier": 1,
+          "strain": 0,
+          "range_m": 18,
+          "damage": "2d8",
+          "save": null,
+          "condition": null,
+          "duration_turns": 0
+        },
+        {
+          "tier": 2,
+          "strain": 1,
+          "range_m": 24,
+          "damage": "3d8",
+          "save": null,
+          "condition": null,
+          "duration_turns": 0
+        },
+        {
+          "tier": 3,
+          "strain": 2,
+          "range_m": 30,
+          "damage": "4d8",
+          "save": null,
+          "condition": null,
+          "duration_turns": 0
+        }
+      ],
+      "source": "CORE_v0.2 + audit proposal; higher tiers are unbalanced",
+      "requires_wand": true
+    },
+    {
+      "id": "expelliarmus",
+      "name": "Expelliarmus",
+      "category": "save",
+      "action": "action",
+      "cooldown": 2,
+      "tiers": [
+        {
+          "tier": 1,
+          "strain": 0,
+          "range_m": 12,
+          "damage": null,
+          "save": "str",
+          "condition": "disarmed",
+          "duration_turns": 1
+        },
+        {
+          "tier": 2,
+          "strain": 1,
+          "range_m": 18,
+          "damage": null,
+          "save": "str",
+          "condition": "disarmed",
+          "duration_turns": 2
+        },
+        {
+          "tier": 3,
+          "strain": 2,
+          "range_m": 24,
+          "damage": null,
+          "save": "str",
+          "condition": "disarmed",
+          "duration_turns": 3
+        }
+      ],
+      "source": "CORE_v0.2 + audit proposal; higher tiers are unbalanced",
+      "requires_wand": true
+    },
+    {
+      "id": "protego",
+      "name": "Protego",
+      "category": "defence",
+      "action": "reaction",
+      "cooldown": 0,
+      "tiers": [
+        {
+          "tier": 1,
+          "strain": 0,
+          "range_m": 0,
+          "damage": null,
+          "save": null,
+          "condition": null,
+          "duration_turns": 0
+        },
+        {
+          "tier": 2,
+          "strain": 1,
+          "range_m": 0,
+          "damage": null,
+          "save": null,
+          "condition": null,
+          "duration_turns": 0
+        },
+        {
+          "tier": 3,
+          "strain": 2,
+          "range_m": 0,
+          "damage": null,
+          "save": null,
+          "condition": null,
+          "duration_turns": 0
+        }
+      ],
+      "source": "CORE_v0.2 + audit proposal; higher tiers are unbalanced",
+      "requires_wand": true
+    },
+    {
+      "id": "lumos",
+      "name": "Lumos",
+      "category": "utility",
+      "action": "action",
+      "cooldown": 0,
+      "tiers": [
+        {
+          "tier": 1,
+          "strain": 0,
+          "range_m": 6,
+          "damage": null,
+          "save": null,
+          "condition": null,
+          "duration_turns": 0
+        },
+        {
+          "tier": 2,
+          "strain": 1,
+          "range_m": 9,
+          "damage": null,
+          "save": null,
+          "condition": null,
+          "duration_turns": 0
+        },
+        {
+          "tier": 3,
+          "strain": 2,
+          "range_m": 12,
+          "damage": null,
+          "save": null,
+          "condition": null,
+          "duration_turns": 0
+        }
+      ],
+      "source": "CORE_v0.2 + audit proposal; higher tiers are unbalanced",
+      "requires_wand": true
+    },
+    {
+      "id": "revelio",
+      "name": "Revelio",
+      "category": "utility",
+      "action": "action",
+      "cooldown": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "strain": 0,
+          "range_m": 6,
+          "damage": null,
+          "save": null,
+          "condition": null,
+          "duration_turns": 0
+        },
+        {
+          "tier": 2,
+          "strain": 1,
+          "range_m": 9,
+          "damage": null,
+          "save": null,
+          "condition": null,
+          "duration_turns": 0
+        },
+        {
+          "tier": 3,
+          "strain": 2,
+          "range_m": 12,
+          "damage": null,
+          "save": null,
+          "condition": null,
+          "duration_turns": 0
+        }
+      ],
+      "source": "CORE_v0.2 + audit proposal; higher tiers are unbalanced",
+      "requires_wand": true
+    }
+  ]
+}

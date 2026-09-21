@@ -15,3 +15,7 @@ Source: player's nine answers and explicit request to implement persistent logs.
 
 Implementation in this revision: persistent entity histories, encounter instances, guarded loot collection, atomic local state+history transactions, clock evidence, versioned export views.
 Not implemented by this revision: complete combat adjudication, balanced spell tiers, fatigue rules, enemy statistics, timeskip activation, UI, automatic background GitHub synchronization.
+
+## First integrated audit proposal
+
+`docs/AUDIT_V1.md` and `data/audit-v1/` now implement a separate runnable proposal for combat, numeric spell tiers, exertion, enemy stats, travel, item use/crafting, persistent play and a localhost UI. These proposals are ready for audit, not promoted to played canon. The historical implementation/not-implemented paragraph above describes cc99841 only.

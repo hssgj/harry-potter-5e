@@ -1,0 +1,11 @@
+<!doctype html><html lang="cs"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HP5E · Fieldbook</title><link rel="stylesheet" href="/style.css"></head><body>
+<header><div class="crest">M</div><div><small>HIGHLANDS • AUDIT BUILD 01</small><h1>Matthael’s Fieldbook</h1></div><span class="badge">PLAYTEST · mimo canon</span></header>
+<main><section class="hero"><div><p class="eyebrow">YOUR NEXT BAD IDEA STARTS HERE</p><h2 id="location">Načítám výpravu…</h2><p id="cue"></p></div><div id="stats"></div></section>
+<div class="toolbar"><button id="survey">Rozhlédnout se</button><button id="short-rest">Krátký odpočinek</button><button id="long-rest">Dlouhý odpočinek</button><span id="time"></span></div>
+<p id="error" role="alert"></p><div class="layout"><section class="panel"><h3>01 / Highlands</h3><svg id="map" viewBox="0 0 1000 1000" aria-label="Schematická mapa objevených míst"></svg><p class="muted">Schematická mapa. Klikni na objevené místo a vydej se po propojené trase.</p><div id="routes"></div></section>
+<section class="panel"><h3>02 / Encounter</h3><div id="combat"></div><div id="encounters"></div><div id="loot"></div></section>
+<section class="panel"><h3>03 / Spellbook</h3><div id="spells"></div><h3>Připravená sestava</h3><div id="loadout"></div><button id="prepare">Připravit vybraná kouzla</button></section>
+<section class="panel"><h3>04 / Inventory & workshop</h3><div id="inventory"></div><div id="craft"></div></section>
+<section class="panel wide"><h3>05 / Experiment bench</h3><p class="muted">GM nejprve zapíše rozsah a riziko. Teprve další příkaz vyhodnotí hod. Předměty používají stejný postup.</p><textarea id="command" rows="6" spellcheck="false" aria-label="Strukturovaný příkaz"></textarea><button id="send">Vyhodnotit příkaz</button><details><summary>Příklady příkazů</summary><pre id="examples"></pre></details></section>
+<section class="panel wide"><h3>06 / Session journal</h3><div id="journal"></div></section></div>
+<footer>Audit rules v1 · local persistent save · žádný automatický zápis do odehrané kampaně</footer></main><script type="module" src="/app.js"></script></body></html>

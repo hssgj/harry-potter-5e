@@ -1,0 +1,548 @@
+{
+  "status": "AUDIT_PROPOSAL",
+  "geography": "Schematic graph only. Times are gameplay proposals, not verified Scotland distances.",
+  "routes": [
+    {
+      "a": "HOG-001",
+      "b": "HOG-003",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "HOG-003",
+      "b": "HOG-006",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "HOG-006",
+      "b": "HOG-008",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "HOG-008",
+      "b": "HOG-005",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "HOG-005",
+      "b": "HOG-007",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "HOG-007",
+      "b": "HOG-002",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "HOG-002",
+      "b": "HOG-004",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "HOG-004",
+      "b": "HOG-001",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "HOG-001",
+      "b": "HSM-003",
+      "minutes": 30,
+      "blocked": false
+    },
+    {
+      "a": "HOG-007",
+      "b": "HSM-005",
+      "minutes": 30,
+      "blocked": false
+    },
+    {
+      "a": "HSM-001",
+      "b": "HSM-003",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "HSM-003",
+      "b": "HSM-006",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "HSM-006",
+      "b": "HSM-007",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "HSM-007",
+      "b": "HSM-002",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "HSM-002",
+      "b": "HSM-005",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "HSM-005",
+      "b": "HSM-008",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "HSM-008",
+      "b": "HSM-004",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "HSM-004",
+      "b": "HSM-001",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "HSM-001",
+      "b": "FOR-002",
+      "minutes": 30,
+      "blocked": false
+    },
+    {
+      "a": "HSM-008",
+      "b": "FOR-001",
+      "minutes": 30,
+      "blocked": false
+    },
+    {
+      "a": "HSM-005",
+      "b": "VAL-001",
+      "minutes": 30,
+      "blocked": false
+    },
+    {
+      "a": "FOR-001",
+      "b": "FOR-002",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "FOR-002",
+      "b": "FOR-006",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "FOR-006",
+      "b": "FOR-003",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "FOR-003",
+      "b": "FOR-008",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "FOR-008",
+      "b": "FOR-005",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "FOR-005",
+      "b": "FOR-007",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "FOR-007",
+      "b": "FOR-004",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "FOR-004",
+      "b": "FOR-001",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "FOR-005",
+      "b": "VAL-004",
+      "minutes": 30,
+      "blocked": false
+    },
+    {
+      "a": "FOR-007",
+      "b": "VAL-008",
+      "minutes": 30,
+      "blocked": false
+    },
+    {
+      "a": "VAL-001",
+      "b": "VAL-002",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "VAL-002",
+      "b": "VAL-004",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "VAL-004",
+      "b": "VAL-003",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "VAL-003",
+      "b": "VAL-005",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "VAL-005",
+      "b": "VAL-006",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "VAL-006",
+      "b": "VAL-008",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "VAL-008",
+      "b": "VAL-007",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "VAL-007",
+      "b": "VAL-001",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "VAL-003",
+      "b": "CST-004",
+      "minutes": 30,
+      "blocked": false
+    },
+    {
+      "a": "VAL-007",
+      "b": "CST-002",
+      "minutes": 30,
+      "blocked": false
+    },
+    {
+      "a": "VAL-008",
+      "b": "CST-001",
+      "minutes": 30,
+      "blocked": false
+    },
+    {
+      "a": "CST-001",
+      "b": "CST-004",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "CST-004",
+      "b": "CST-006",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "CST-006",
+      "b": "CST-007",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "CST-007",
+      "b": "CST-003",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "CST-003",
+      "b": "CST-005",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "CST-005",
+      "b": "CST-002",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "CST-002",
+      "b": "CST-008",
+      "minutes": 5,
+      "blocked": false
+    },
+    {
+      "a": "CST-008",
+      "b": "CST-001",
+      "minutes": 5,
+      "blocked": false
+    }
+  ],
+  "pois": [
+    {
+      "id": "HOG-001",
+      "access_dc": 11,
+      "safe_rest": true,
+      "resolved_state": "secured"
+    },
+    {
+      "id": "HOG-002",
+      "access_dc": 12,
+      "safe_rest": false,
+      "resolved_state": "drained"
+    },
+    {
+      "id": "HOG-003",
+      "access_dc": 12,
+      "safe_rest": false,
+      "resolved_state": "synchronized"
+    },
+    {
+      "id": "HOG-004",
+      "access_dc": 12,
+      "safe_rest": false,
+      "resolved_state": "volatile"
+    },
+    {
+      "id": "HOG-005",
+      "access_dc": 12,
+      "safe_rest": false,
+      "resolved_state": "crossable"
+    },
+    {
+      "id": "HOG-006",
+      "access_dc": 12,
+      "safe_rest": false,
+      "resolved_state": "completed"
+    },
+    {
+      "id": "HOG-007",
+      "access_dc": 11,
+      "safe_rest": false,
+      "resolved_state": "opened"
+    },
+    {
+      "id": "HOG-008",
+      "access_dc": 12,
+      "safe_rest": false,
+      "resolved_state": "discharged"
+    },
+    {
+      "id": "HSM-001",
+      "access_dc": 13,
+      "safe_rest": false,
+      "resolved_state": "cleared"
+    },
+    {
+      "id": "HSM-002",
+      "access_dc": 11,
+      "safe_rest": true,
+      "resolved_state": "stable"
+    },
+    {
+      "id": "HSM-003",
+      "access_dc": 12,
+      "safe_rest": false,
+      "resolved_state": "patrolled"
+    },
+    {
+      "id": "HSM-004",
+      "access_dc": 13,
+      "safe_rest": false,
+      "resolved_state": "moved"
+    },
+    {
+      "id": "HSM-005",
+      "access_dc": 13,
+      "safe_rest": false,
+      "resolved_state": "abandoned"
+    },
+    {
+      "id": "HSM-006",
+      "access_dc": 12,
+      "safe_rest": false,
+      "resolved_state": "dismantled"
+    },
+    {
+      "id": "HSM-007",
+      "access_dc": 11,
+      "safe_rest": false,
+      "resolved_state": "vented"
+    },
+    {
+      "id": "HSM-008",
+      "access_dc": 13,
+      "safe_rest": false,
+      "resolved_state": "collapsed"
+    },
+    {
+      "id": "FOR-001",
+      "access_dc": 13,
+      "safe_rest": false,
+      "resolved_state": "quiet"
+    },
+    {
+      "id": "FOR-002",
+      "access_dc": 12,
+      "safe_rest": false,
+      "resolved_state": "hostile"
+    },
+    {
+      "id": "FOR-003",
+      "access_dc": 14,
+      "safe_rest": false,
+      "resolved_state": "collapsed"
+    },
+    {
+      "id": "FOR-004",
+      "access_dc": 12,
+      "safe_rest": false,
+      "resolved_state": "charted"
+    },
+    {
+      "id": "FOR-005",
+      "access_dc": 13,
+      "safe_rest": false,
+      "resolved_state": "retaken"
+    },
+    {
+      "id": "FOR-006",
+      "access_dc": 13,
+      "safe_rest": false,
+      "resolved_state": "harvested"
+    },
+    {
+      "id": "FOR-007",
+      "access_dc": 14,
+      "safe_rest": false,
+      "resolved_state": "stable"
+    },
+    {
+      "id": "FOR-008",
+      "access_dc": 14,
+      "safe_rest": false,
+      "resolved_state": "opened"
+    },
+    {
+      "id": "VAL-001",
+      "access_dc": 12,
+      "safe_rest": false,
+      "resolved_state": "cleared"
+    },
+    {
+      "id": "VAL-002",
+      "access_dc": 12,
+      "safe_rest": false,
+      "resolved_state": "broken"
+    },
+    {
+      "id": "VAL-003",
+      "access_dc": 13,
+      "safe_rest": false,
+      "resolved_state": "quiet"
+    },
+    {
+      "id": "VAL-004",
+      "access_dc": 12,
+      "safe_rest": false,
+      "resolved_state": "blighted"
+    },
+    {
+      "id": "VAL-005",
+      "access_dc": 13,
+      "safe_rest": false,
+      "resolved_state": "collapsed"
+    },
+    {
+      "id": "VAL-006",
+      "access_dc": 12,
+      "safe_rest": false,
+      "resolved_state": "lost"
+    },
+    {
+      "id": "VAL-007",
+      "access_dc": 13,
+      "safe_rest": false,
+      "resolved_state": "controlled"
+    },
+    {
+      "id": "VAL-008",
+      "access_dc": 14,
+      "safe_rest": false,
+      "resolved_state": "disturbed"
+    },
+    {
+      "id": "CST-001",
+      "access_dc": 14,
+      "safe_rest": false,
+      "resolved_state": "drained"
+    },
+    {
+      "id": "CST-002",
+      "access_dc": 14,
+      "safe_rest": false,
+      "resolved_state": "secured"
+    },
+    {
+      "id": "CST-003",
+      "access_dc": 13,
+      "safe_rest": false,
+      "resolved_state": "stripped"
+    },
+    {
+      "id": "CST-004",
+      "access_dc": 13,
+      "safe_rest": false,
+      "resolved_state": "shattered"
+    },
+    {
+      "id": "CST-005",
+      "access_dc": 13,
+      "safe_rest": false,
+      "resolved_state": "captured"
+    },
+    {
+      "id": "CST-006",
+      "access_dc": 13,
+      "safe_rest": false,
+      "resolved_state": "charted"
+    },
+    {
+      "id": "CST-007",
+      "access_dc": 14,
+      "safe_rest": false,
+      "resolved_state": "harvested"
+    },
+    {
+      "id": "CST-008",
+      "access_dc": 15,
+      "safe_rest": false,
+      "resolved_state": "claimed"
+    }
+  ]
+}
