@@ -1,22 +1,74 @@
-# Handoff — v0.3, 2026-09-13
-Samostatné repo hssgj/harry-potter-5e. První filmový prolog je odehraný a první živý úsek hry pokračoval přes Prasinky až k dokončení výběru hůlky u Ollivandera.
+# Handoff — v1.0, 2026-09-22
 
-Hráč potvrdil čtyři startovní vrozené projevy a cooldowny; před příjezdem nikdy neznal kouzelnický svět ani čaroděje. Na startu nepojmenované, neovládané projevy: výboj, zábrana, přitažení, světlo. Všechny mají příslušný hod s nevýhodou. Nejsou to naučená kouzla. Žádný blood armor.
+Samostatné repo hssgj/harry-potter-5e.
 
-Na hráčovo pověření GM vybral standard array a rozdělení: STR8 DEX14 CON13 INT12 WIS15 CHA10. Pilot L1, PB2, maximum HP13, AC12. Aktuální HP na checkpointu: 10/13.
-INT učení, WIS kontrola/sesílání. Záchranné zdatnosti CON/WIS; fyzické a všímavostní zdatnosti na sheetu.
+## Aktuální pokračování
+The Lost Years je nyní vedené také v režimu FREE ROAM. Starý Session 001 checkpoint zůstává historický záznam, ale už není aktuálním resume bodem.
 
-Autoritativní pracovní pravidla CORE_v0.2 a STARTING_MANIFESTATIONS; v0.1 je historie, nikoli aktuální alternativa. Konkrétní čísla jsou GM implementace na pověření, matematika ověřena, souboje neotestované.
-GM podklady zůstávají oddělené. Nevyzrazovat Future Canon do hráčských výstupů.
+### Autoritativní resume point
+- `sessions/FREE_ROAM_CHECKPOINT.md`
+- Matthael Daunt + Snaek
+- Hogwarts gate / immediate castle exit area
+- September 1891
+- Sixth year
+- Slytherin
+- Begin outside the castle with no forced quest.
 
-## Aktuální canon
-Matthael získal vlastní hůlku u Ollivandera: ebenová, s dračí esencí a výraznou rudou linií/motivem. Fig ji zaplatil; podmínky vrácení peněz nebyly řečeny. Matthael má také pouzdro/krabičku.
-Při výběru hůlky došlo k drobnému jednorázovému projevu souznění: nadzvedly se lehké předměty a Figův klobouk. Toto není ovládnutá levitace ani naučené kouzlo.
-Naučená kouzla: žádná. Vrozené projevy dál používají nevýhodu.
+### Free Roam state
+- Map: `world/FREE_ROAM_MAP.md`
+- Machine-readable state: `world/FREE_ROAM_STATE.json`
+- Travel: HYBRID
+- Unknown POIs: approximate areas only
+- Encounters: DYNAMIC / relatively frequent
+- Secrets: perception-only; never pre-reveal entrances, solutions, hidden contents or loot identity.
 
-## Kde pokračovat
-Autoritativní checkpoint: sessions/001_CHECKPOINT_01.md.
-Fig právě otevírá dveře z Ollivanderova krámku. Chce Matthaela doprovodit do Bradavic, promluvit s profesorkou Weasleyovou o přijetí a o místě, kde může dnes zůstat. Poslední instrukce: hůlku zatím do pouzdra; cestou ukáže hrad.
-Další krok je hráčovo jednání od tohoto okamžiku. Nic nepředepisovat a nevracet přípravný dotazník.
+## Canon protection
+Known story events remain preserved. New POIs, quests, NPCs, loot and solutions are proposals until actually discovered or played.
 
-Aktuální následky a léčba: rules/CONSEQUENCES.md. Prolog: sessions/001_OPENING.md. První živý checkpoint: sessions/001_CHECKPOINT_01.md.
+The current chat-established The Lost Years canon is ahead of several old repository files. Do not revert Matthael to the early Ollivander/Session 001 state merely because those files are older.
+
+Preserve established late-campaign canon including:
+- sixth-year September 1891 frame
+- Matthael Daunt as Slytherin
+- Snaek as Matthael's companion
+- Subject IX / Specimen VIII continuity
+- Blackthorn continuity
+- Ookami / separated essence continuity
+- already played relationships, discoveries and consequences
+
+## Outdoor regions
+The free-roam map uses:
+1. Hogwarts & Great Lake
+2. Meadows
+3. Hogsmeade
+4. Forbidden Forest
+5. Countryside & Valley
+6. Wetlands / Bog
+7. Coast
+
+Each outdoor region currently has a content budget of:
+- 3 POI slots
+- 2 side-quest slots
+- 1 rare-loot slot
+
+These are capacity slots, not automatically canonized content.
+
+## Hogwarts mystery areas
+- HOG-???-01 — lower / subterranean Hogwarts — UNDISCOVERED
+- HOG-???-02 — school courtyard zone — UNDISCOVERED
+- HOG-???-03 — upper floors — UNDISCOVERED
+
+Their exact nature remains unrevealed until play.
+
+## Old pilot rules
+The original v0.2 pilot rules, character sheet and Session 001 records remain useful historical/mechanical references, but may be stale relative to the current sixth-year campaign. Do not silently overwrite newer played canon with them.
+
+## Next-chat instruction
+When the user asks to continue/play/roam:
+1. load `world/FREE_ROAM_STATE.json`,
+2. load `sessions/FREE_ROAM_CHECKPOINT.md`,
+3. start Matthael and Snaek at the Hogwarts gate,
+4. describe only the immediate perceivable scene,
+5. offer natural travel directions,
+6. do not force a quest,
+7. keep hidden POI content hidden until discovered in play.
