@@ -2,9 +2,16 @@
 Harry Potter 5e — world, lore, characters and rules
 
 Samostatná příběhová hra: kostky a checky 5e, učení a boj inspirované Hogwarts Legacy.
-Stav: společně budujeme. Pravidla v0.2 provádějí hráčova rozhodnutí a pověření GM. Matematika zkontrolovaná; vyvážení dosud neotestované.
 
-## Pro hráče — začni tady
+## Aktuální hra
+The Lost Years má persistentní FREE ROAM vrstvu.
+
+- [Free Roam mapa](world/FREE_ROAM_MAP.md)
+- [Free Roam state](world/FREE_ROAM_STATE.json)
+- [Aktuální resume checkpoint](sessions/FREE_ROAM_CHECKPOINT.md)
+- [Handoff](HANDOFF.md)
+
+## Starší / základní materiály
 - [Matthael — character sheet](characters/matthael/CHARACTER_SHEET.md)
 - [Spellbook a bojová sestava](characters/matthael/SPELLBOOK.md)
 - [Svět](world/SETTING.md)
@@ -12,9 +19,9 @@ Stav: společně budujeme. Pravidla v0.2 provádějí hráčova rozhodnutí a po
 - [Startovní projevy](rules/STARTING_MANIFESTATIONS.md)
 - [Matematika rozdělení](rules/BUILD_MATH.md)
 - [Co ještě rozhodnout](OPEN_QUESTIONS.md)
-- [Kde pokračovat](HANDOFF.md)
 
-CANON = výslovně schválená fikce. NÁVRH = zatím nezamknuté řešení.
-Schválený směr pravidel není schválení každého čísla v návrhu.
-V budoucích odhaleních rozlišujeme pravdu světa a to, co ví postava; hráčova volba není předem napsaný výsledek.
-Hráčská část neodkazuje na konkrétní odhalení. Složka gm/ obsahuje označené spoilery; není zabezpečená proti majiteli repozitáře.
+CANON = výslovně schválená nebo odehraná fikce.
+NÁVRH = zatím nezamknuté řešení.
+Free Roam POI, questy, NPC, loot a jejich řešení se nestávají canonem jen tím, že existují jako slot nebo návrh.
+
+Důležité: některé starší soubory zachycují počáteční Session 001 stav a mohou být zastaralé vůči aktuálnímu šestému ročníku The Lost Years. Pro pokračování má přednost aktuální Free Roam checkpoint + novější odehraný canon.
