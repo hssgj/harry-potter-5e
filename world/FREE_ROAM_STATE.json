@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "updated": "2026-09-22",
+  "campaign": "The Lost Years",
+  "mode": "FREE_ROAM",
+  "resume": {
+    "location": "Hogwarts gate / castle exit area",
+    "character": "Matthael Daunt",
+    "companion": "Snaek",
+    "date_in_world": "September 1891",
+    "year": 6
+  },
+  "navigation": {
+    "travel_mode": "HYBRID",
+    "unknown_poi_display": "APPROXIMATE_AREA",
+    "encounter_frequency": "DYNAMIC",
+    "spoiler_policy": "PERCEPTION_ONLY"
+  },
+  "regions": [
+    "Hogwarts & Great Lake",
+    "Meadows",
+    "Hogsmeade",
+    "Forbidden Forest",
+    "Countryside & Valley",
+    "Wetlands / Bog",
+    "Coast"
+  ],
+  "hogwarts": {
+    "known_locations": [
+      "Slytherin Common Room",
+      "Matilda Weasley's Office",
+      "Charms / Defence classrooms",
+      "Greenhouses & explored underlevel",
+      "Headmaster's Office"
+    ],
+    "mystery_poi": [
+      {"id":"HOG-???-01","area":"lower / subterranean Hogwarts","status":"UNDISCOVERED"},
+      {"id":"HOG-???-02","area":"school courtyard zone","status":"UNDISCOVERED"},
+      {"id":"HOG-???-03","area":"upper floors","status":"UNDISCOVERED"}
+    ]
+  },
+  "content_budget_per_outdoor_region": {
+    "poi": 3,
+    "side_quests": 2,
+    "rare_loot_slots": 1
+  },
+  "canon_policy": {
+    "proposal_is_canon": false,
+    "discovery_required": true,
+    "player_knowledge_separate_from_world_truth": true,
+    "no_pre_reveal_of_hidden_content": true
+  }
+}
