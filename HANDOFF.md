@@ -1,3 +1,6 @@
+## LIVE OVERRIDE — 2026-09-24 (waterfall encounter)
+Active session now overrides the historical Hogwarts-gate resume below. Read `sessions/WATERFALL_GUARDIAN_CHECKPOINT.md`, `rules/WATERFALL_BOSS_PLAYTEST.md` and `world/FREE_ROAM_STATE.json` first. Waterfall POI HOG-WF-01 is DISCOVERED, its guardian boss ACTIVE, krystal physically obtained but contested, and the remote key-linked POI still undiscovered. Previous automatic exit narration was rejected by player; do not close combat without play. The gate instructions below apply only when a later checkpoint explicitly returns the party there.
+
 # Handoff — v1.0, 2026-09-22
 
 Samostatné repo hssgj/harry-potter-5e.
