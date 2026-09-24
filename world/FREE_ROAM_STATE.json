@@ -1,14 +1,17 @@
 {
   "version": "1.0",
-  "updated": "2026-09-22",
+  "updated": "2026-09-24",
   "campaign": "The Lost Years",
   "mode": "FREE_ROAM",
   "resume": {
-    "location": "Hogwarts gate / castle exit area",
+    "location": "Waterfall threshold inside discovered underfall shrine, Hogwarts basin",
     "character": "Matthael Daunt",
     "companion": "Snaek",
     "date_in_world": "September 1891",
-    "year": 6
+    "year": 6,
+    "checkpoint": "sessions/WATERFALL_GUARDIAN_CHECKPOINT.md",
+    "scene_status": "ACTIVE_BOSS_UNRESOLVED",
+    "party_member_nearby": "Cass at exterior basin path"
   },
   "navigation": {
     "travel_mode": "HYBRID",
@@ -34,9 +37,21 @@
       "Headmaster's Office"
     ],
     "mystery_poi": [
-      {"id":"HOG-???-01","area":"lower / subterranean Hogwarts","status":"UNDISCOVERED"},
-      {"id":"HOG-???-02","area":"school courtyard zone","status":"UNDISCOVERED"},
-      {"id":"HOG-???-03","area":"upper floors","status":"UNDISCOVERED"}
+      {
+        "id": "HOG-???-01",
+        "area": "lower / subterranean Hogwarts",
+        "status": "UNDISCOVERED"
+      },
+      {
+        "id": "HOG-???-02",
+        "area": "school courtyard zone",
+        "status": "UNDISCOVERED"
+      },
+      {
+        "id": "HOG-???-03",
+        "area": "upper floors",
+        "status": "UNDISCOVERED"
+      }
     ]
   },
   "content_budget_per_outdoor_region": {
@@ -49,5 +64,19 @@
     "discovery_required": true,
     "player_knowledge_separate_from_world_truth": true,
     "no_pre_reveal_of_hidden_content": true
-  }
+  },
+  "discovered_poi": [
+    {
+      "id": "HOG-WF-01",
+      "name": "Waterfall Basin / Underfall Shrine",
+      "region": "Hogwarts & Great Lake",
+      "status": "DISCOVERED_ACTIVE_BOSS",
+      "map_pin_status": "UNVERIFIED_NO_COORDINATE",
+      "access": "waterfall basin to submerged shrine",
+      "reward_state": "underfall_crystal_physically_held_but_contested",
+      "boss_state": "UNDERTOW_GUARDIAN_ACTIVE",
+      "remote_key_hook": "DISTANT_POI_UNDISCOVERED_NO_COORDINATE",
+      "checkpoint": "sessions/WATERFALL_GUARDIAN_CHECKPOINT.md"
+    }
+  ]
 }
