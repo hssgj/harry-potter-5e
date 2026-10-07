@@ -1,3 +1,7 @@
+# CURRENT CAMPAIGN IMPORT STATUS — 2026-10-07
+
+The authoritative transaction file is `world.json`, but its campaign currently remains the revision-0 introductory seed. It is not a reconciled save of the sixth-year waterfall encounter. Read `engine/import/CURRENT_CAMPAIGN_RECONCILIATION.md` and root `CURRENT.md` before current-campaign use. Do not interpret historical HP 10/13 or combat inactive as the latest live state.
+
 # Runtime authority after v2 migration
 
 `world.json` is the authoritative transaction document. It contains campaign
@@ -35,3 +39,4 @@ manual recovery; never auto-delete another writer's lock.
 GitHub persistence is a separate action: publish world.json and exported histories
 in one non-force commit after verifying the remote parent. These commands alone
 do not push or run between chat messages. Private GM data is not a player API.
+

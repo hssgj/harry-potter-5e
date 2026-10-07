@@ -1,3 +1,7 @@
+## PRESERVATION UPDATE — 2026-10-07
+
+Read `CURRENT.md` first. The partial September 25 waterfall continuation is later than the original September 24 exact resume frame. `sessions/RUBBER_DUCK_QUEST.md` preserves the separately recovered quest narrative/cast without silently changing the main-campaign save. Historical functional maps are in `world/maps/`; their defaults predate the boss.
+
 ## LIVE OVERRIDE — 2026-09-24 (waterfall encounter)
 Active session now overrides the historical Hogwarts-gate resume below. Read `sessions/WATERFALL_GUARDIAN_CHECKPOINT.md`, `rules/WATERFALL_BOSS_PLAYTEST.md` and `world/FREE_ROAM_STATE.json` first. Waterfall POI HOG-WF-01 is DISCOVERED, its guardian boss ACTIVE, krystal physically obtained but contested, and the remote key-linked POI still undiscovered. Previous automatic exit narration was rejected by player; do not close combat without play. The gate instructions below apply only when a later checkpoint explicitly returns the party there.
 
@@ -68,9 +72,9 @@ The original v0.2 pilot rules, character sheet and Session 001 records remain us
 
 ## Next-chat instruction
 When the user asks to continue/play/roam:
-1. load `world/FREE_ROAM_STATE.json`,
-2. load `sessions/FREE_ROAM_CHECKPOINT.md`,
-3. start Matthael and Snaek at the Hogwarts gate,
+1. load `CURRENT.md` and its newest applicable checkpoint/supplement,
+2. load `world/FREE_ROAM_STATE.json`,
+3. resume the unresolved waterfall encounter using its recorded consequences; use the Hogwarts-gate instructions only if a later explicit checkpoint returns there,
 4. describe only the immediate perceivable scene,
 5. offer natural travel directions,
 6. do not force a quest,

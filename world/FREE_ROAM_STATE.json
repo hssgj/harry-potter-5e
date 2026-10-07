@@ -11,7 +11,9 @@
     "year": 6,
     "checkpoint": "sessions/WATERFALL_GUARDIAN_CHECKPOINT.md",
     "scene_status": "ACTIVE_BOSS_UNRESOLVED",
-    "party_member_nearby": "Cass at exterior basin path"
+    "party_member_nearby": "Cass at exterior basin path",
+    "recovery_supplement": "sessions/WATERFALL_GUARDIAN_RECOVERY_2026-09-25.md",
+    "exact_post_supplement_position": "UNKNOWN; original location is the last direct checkpoint, not a verified post-action position"
   },
   "navigation": {
     "travel_mode": "HYBRID",
@@ -78,5 +80,20 @@
       "remote_key_hook": "DISTANT_POI_UNDISCOVERED_NO_COORDINATE",
       "checkpoint": "sessions/WATERFALL_GUARDIAN_CHECKPOINT.md"
     }
-  ]
+  ],
+  "preservation_updated": "2026-10-07",
+  "recovered_continuation": {
+    "source_type": "PRIOR_MESSAGE_SUMMARY",
+    "source_timestamp": "2026-09-25T06:26:07Z",
+    "guardian": "ACTIVE",
+    "shield_arm": "DAMAGED",
+    "floor": "CRACKED",
+    "crystal": "RETAINED_CONTESTED",
+    "strain_delta_for_recovered_actions": 4,
+    "current_total_strain": null,
+    "current_player_hp": null,
+    "current_guardian_hp": null,
+    "boss_cleared": false
+  },
+  "separate_quest_record": "world/RUBBER_DUCK_QUEST_STATE.json"
 }

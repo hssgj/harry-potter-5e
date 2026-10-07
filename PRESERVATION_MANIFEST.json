@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-07",
+  "scope": "Source preservation and entry-point repair; no gameplay advancement or new encounter design",
+  "sources": [
+    {
+      "path": "world/maps/troll_route_4_3_14.html",
+      "snapshot": "world/maps/snapshots/troll_route_4_3_14.json",
+      "source_ids": [
+        "libfile_fffc180107088191b06d73bdb13eaa11"
+      ],
+      "original_html_sha256": "7a4550922b6b5a7460fa82794040c4ea83a7e79fde4d780782a33ec313cf48b6",
+      "preservation": "JS/CSS/defaults preserved unchanged; embedded original JPEG externalized byte-for-byte to shared asset; original HTML reconstructable by reversing only that URI substitution",
+      "source_created_at": [
+        "2026-09-23T13:40:44.874072Z"
+      ],
+      "status": "HISTORICAL_2026_09_23_SNAPSHOT"
+    },
+    {
+      "path": "world/maps/base_40_poi.html",
+      "snapshot": "world/maps/snapshots/base_40_poi.json",
+      "source_ids": [
+        "libfile_6c5ab68ee140819187ac4a466af144af",
+        "libfile_230ea54f72a081919d0b5d013dcebeee",
+        "libfile_7e895ac931648191ad7d4debcc87a806"
+      ],
+      "original_html_sha256": "a32e67c1543f3770771c703eccf497cf6821a23c9b3b8d175ee86bd5d56b23ee",
+      "preservation": "JS/CSS/defaults preserved unchanged; embedded original JPEG externalized byte-for-byte to shared asset; original HTML reconstructable by reversing only that URI substitution",
+      "source_created_at": [
+        "2026-09-23T07:52:03.350020Z",
+        "2026-09-23T07:34:14.094438Z",
+        "2026-09-23T07:33:35.555267Z"
+      ],
+      "status": "HISTORICAL_2026_09_23_SNAPSHOT"
+    },
+    {
+      "path": "world/maps/poi3_cleared.html",
+      "snapshot": "world/maps/snapshots/poi3_cleared.json",
+      "source_ids": [
+        "libfile_5969e5308b948191b377b91bbdd714d6"
+      ],
+      "original_html_sha256": "f0c7652d27139fa24be82c0397f3f625d6424b3f9033e4e07e7f3c249eb46c40",
+      "preservation": "JS/CSS/defaults preserved unchanged; embedded original JPEG externalized byte-for-byte to shared asset; original HTML reconstructable by reversing only that URI substitution",
+      "source_created_at": [
+        "2026-09-23T10:23:42.248149Z"
+      ],
+      "status": "HISTORICAL_2026_09_23_SNAPSHOT"
+    },
+    {
+      "path": "world/maps/forest_edge_route.html",
+      "snapshot": "world/maps/snapshots/forest_edge_route.json",
+      "source_ids": [
+        "libfile_2f7381a7f6a08191b54cd28fad767ff4"
+      ],
+      "original_html_sha256": "b2aa51dd51bb0feba6d3f73ecded755d527b6d358f5344c2182fa79f0d987887",
+      "preservation": "JS/CSS/defaults preserved unchanged; embedded original JPEG externalized byte-for-byte to shared asset; original HTML reconstructable by reversing only that URI substitution",
+      "source_created_at": [
+        "2026-09-23T12:54:58.287672Z"
+      ],
+      "status": "HISTORICAL_2026_09_23_SNAPSHOT"
+    },
+    {
+      "path": "sessions/RUBBER_DUCK_QUEST.md",
+      "source_type": "PRIOR_MESSAGE_SUMMARY",
+      "original_transcript_complete": false,
+      "main_campaign_promotion": false
+    },
+    {
+      "path": "sessions/WATERFALL_GUARDIAN_RECOVERY_2026-09-25.md",
+      "source_type": "PRIOR_MESSAGE_SUMMARY",
+      "original_transcript_complete": false,
+      "numerical_live_save_complete": false
+    }
+  ],
+  "conversation_archive_complete": false,
+  "freepm_gameplay_roundtrip": "NOT_TESTED",
+  "original_binaries": [
+    {
+      "path": "world/maps/assets/map-background.jpg",
+      "bytes": 489722,
+      "sha256": "436de75466af2e399ea1aacaf4bd71704aa756f70301bac4116308566ec68659",
+      "git_sha": "fef951648bb51b1be98cbc9eb0838a18c0978594",
+      "preservation": "Exact embedded original JPEG shared by all HTML map snapshots"
+    }
+  ],
+  "parent_commit": "de7424dfc0f90794ee3dbfb48bcc19688a2ecbe9",
+  "verification": {
+    "json_parse": "PASS",
+    "preserved_extracted_text_hashes": "PASS",
+    "generated_markdown_links": "PASS",
+    "map_javascript_syntax": "PASS",
+    "gameplay_roundtrip": "NOT_TESTED"
+  },
+  "mechanical_runtime_import": "INCOMPLETE; revision-0 seed is not latest campaign; see engine/import/CURRENT_CAMPAIGN_RECONCILIATION.md"
+}

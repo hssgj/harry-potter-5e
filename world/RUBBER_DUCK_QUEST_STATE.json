@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "preserved": "2026-10-07",
+  "quest": "Rubber Duck Quest / The Quacking Below",
+  "source_type": "RETRIEVED_PRIOR_MESSAGE_SUMMARIES_NOT_ORIGINAL_TRANSCRIPT",
+  "quest_cast": {
+    "source_timestamp": "2026-10-03T18:51:12Z",
+    "control": {
+      "die": "d20",
+      "value": 13,
+      "dc": 16,
+      "result": "MISS"
+    },
+    "execution": {
+      "die": "d20",
+      "value": 18,
+      "dc": 17,
+      "result": "SUCCESS"
+    },
+    "effect": {
+      "die": "d12",
+      "value": 11
+    },
+    "strain_roll": {
+      "die": "d6",
+      "value": 2
+    },
+    "source_point_status": "ACTIVE",
+    "onset": "first safe unobserved moment after noon; no retcon"
+  },
+  "narrative_outcomes": [
+    "Daunt lower harmony / Snaek upper harmony stabilized bridge",
+    "Wit: opening boxes token",
+    "Will: rejected false rest/ignorance",
+    "Absurdity: humor accepted, crown token",
+    "Narrated Hogwarts return; duck garments recurring; Cassian noticed squeak"
+  ],
+  "narrative_source_timestamps": [
+    "2026-10-04T01:18:54Z",
+    "2026-10-04T04:46:54Z"
+  ],
+  "classification_conflict": "quest sequence also retrieved as bedtime fiction, not confirmed main-campaign gameplay",
+  "gameplay_resolution": "UNKNOWN",
+  "apply_to_live_campaign": false,
+  "current_hp": null,
+  "current_strain": null,
+  "spent_resources": null,
+  "inventory_delta": null,
+  "xp": null,
+  "relation_to_waterfall_checkpoint": "UNKNOWN",
+  "original_chat_id": null,
+  "original_chat_url": null,
+  "log": "sessions/RUBBER_DUCK_QUEST.md"
+}
