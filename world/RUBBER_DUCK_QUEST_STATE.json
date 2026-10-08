@@ -1,10 +1,13 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "preserved": "2026-10-07",
+  "classification_corrected": "2026-10-08",
   "quest": "Rubber Duck Quest / The Quacking Below",
-  "source_type": "RETRIEVED_PRIOR_MESSAGE_SUMMARIES_NOT_ORIGINAL_TRANSCRIPT",
+  "classification": "QUEST_SPEC_AND_ACTIVATION_RECORD",
+  "source_type": "RETRIEVED_SOURCE_MESSAGES_NOT_PLAYED_SESSION",
   "quest_cast": {
-    "source_timestamp": "2026-10-03T18:51:12Z",
+    "user_source_timestamp": "2026-10-03T18:50:51Z",
+    "interpretation_source_timestamp": "2026-10-03T18:51:12Z",
     "control": {
       "die": "d20",
       "value": 13,
@@ -25,30 +28,37 @@
       "die": "d6",
       "value": 2
     },
-    "source_point_status": "ACTIVE",
-    "onset": "first safe unobserved moment after noon; no retcon"
+    "recorded_total": 44,
+    "source_point_status": "ACTIVATED_FOR_FUTURE_PLAY",
+    "onset": "first safe unobserved moment at or after noon; no retcon"
   },
-  "narrative_outcomes": [
-    "Daunt lower harmony / Snaek upper harmony stabilized bridge",
-    "Wit: opening boxes token",
-    "Will: rejected false rest/ignorance",
-    "Absurdity: humor accepted, crown token",
-    "Narrated Hogwarts return; duck garments recurring; Cassian noticed squeak"
+  "designed_components": [
+    "map-pinned rubber duck outside/under Hogwarts area",
+    "pebble-duck trail",
+    "quacking call-and-response bridge",
+    "troll-sized Rubber Warden",
+    "duck dungeon with pit, sound door and obstacle hall",
+    "golem-sized Grand Quackwarden",
+    "planned chest reveal: rubber-duck socks and matching underwear"
   ],
-  "narrative_source_timestamps": [
-    "2026-10-04T01:18:54Z",
-    "2026-10-04T04:46:54Z"
-  ],
-  "classification_conflict": "quest sequence also retrieved as bedtime fiction, not confirmed main-campaign gameplay",
-  "gameplay_resolution": "UNKNOWN",
+  "main_campaign_gameplay": "NOT_PLAYED",
+  "gameplay_resolution": "NOT_PLAYED",
   "apply_to_live_campaign": false,
-  "current_hp": null,
-  "current_strain": null,
-  "spent_resources": null,
-  "inventory_delta": null,
-  "xp": null,
-  "relation_to_waterfall_checkpoint": "UNKNOWN",
-  "original_chat_id": null,
-  "original_chat_url": null,
-  "log": "sessions/RUBBER_DUCK_QUEST.md"
+  "map_pin_status": "UNKNOWN_NO_NUMERIC_POI_OR_COORDINATE",
+  "relation_to_waterfall_checkpoint": "NOT_ESTABLISHED",
+  "earned_inventory_delta": null,
+  "current_hp": "NOT_APPLICABLE",
+  "current_strain": "NOT_APPLICABLE",
+  "spent_resources": "NOT_APPLICABLE",
+  "xp": "NOT_APPLICABLE",
+  "mechanical_log": "sessions/RUBBER_DUCK_QUEST.md",
+  "narrative_archive": "narrative_archive/RUBBER_DUCK_BEDTIME_FICTION_SUMMARY.md",
+  "excluded_noncanonical_dice_audit": {
+    "d4": 1,
+    "d6": 4,
+    "d8": 4,
+    "d10": 3,
+    "d12": 9,
+    "d20": 16
+  }
 }

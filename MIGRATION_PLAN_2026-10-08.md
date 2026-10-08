@@ -107,3 +107,14 @@ For this execution: write only MIGRATION_PLAN_2026-10-08.md, await GitHub's resu
 After verification, only bounded read-only source discovery is permitted. No additional write until provenance, completeness and destination are reliably established. No speculative reconstructions. Stop after the report; do not start AOT.
 
 Next concrete action: locate the complete original Rubber Duck Quest player/gameplay log and record its provenance in a read-only review.
+
+## SOURCE RESOLUTION UPDATE — 2026-10-08
+
+This update supersedes earlier open-item wording where it conflicts.
+
+- Rubber Duck Quest is now verified as an EXISTING quest design and activation record, not a partially recovered played session. The user requested the later sequence as bedtime fiction and distinguished it from future gameplay. Therefore a historical complete gameplay log is NOT APPLICABLE: no player-driven playthrough had occurred.
+- The canonical activation values remain Control 13 vs DC 16, Execution 18 vs DC 17, Effect 11, Strain roll 2. The mechanical record is `sessions/RUBBER_DUCK_QUEST.md`; the recovered bedtime-fiction summary is separated at `narrative_archive/RUBBER_DUCK_BEDTIME_FICTION_SUMMARY.md`.
+- The available Library inventory contains no HTML or JSON map export newer than `hp5e_free_roam_troll_route_4_3_14.html` from 2026-09-23T13:40:44.874072Z. The four historical maps already in Git remain the newest located files and must not be duplicated.
+- `world/maps/QUEST_POINT_CROSSWALK.md` records the verified four-point relationship. Duck numeric pin and the HOG-WF-01-to-HTML mapping remain intentionally UNKNOWN.
+- Exact last-combat HP, total Strain, resources and post-action position were confirmed not to exist as a recoverable save. Their UNKNOWN status is not an outstanding migration artifact and must not be filled with seed values.
+- Narrative Quest Archive is PARTIAL: the recovered Duck bedtime-fiction summary now has a dedicated category. Other Narrative/Downed originals remain pending source discovery.

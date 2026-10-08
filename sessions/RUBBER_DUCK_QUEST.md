@@ -1,51 +1,77 @@
 # Rubber Duck Quest — The Quacking Below
 
-Preserved: 2026-10-07. Source dates: 2026-10-03–04 (UTC).
-Status: PARTIALLY RECOVERED QUEST / NARRATIVE LOG. This is a source-based reconstruction from retrieved prior-message summaries, not the complete original transcript. The current user explicitly requested preserving this useful quest as MD. Exact original chat ID/URL and full source range were not recovered.
+Preserved: 2026-10-07; source classification corrected 2026-10-08.
+Source dates: 2026-10-03–04 (UTC).
+Status: QUEST SPEC + ACTIVATION RECORD / GAMEPLAY NOT YET PLAYED.
 
 ## Authority boundary
 
-The incantation/roll log was explicitly requested by the user at 2026-10-03T18:50:51Z. The subsequent quest sequence survives as assistant-authored narrative summaries. Retrieval also classifies it as bedtime fiction rather than confirmed main-campaign gameplay. Preserve that narrative outcome, but do not automatically mark it as an engine-resolved session, clear the waterfall boss, move the current PC, or apply inventory/resources to the live campaign. Resolution classification remains unresolved until the full original record is available.
+The available source trail does not contain a player-driven mechanical playthrough of this quest. The later chapters were explicitly requested as bedtime fiction, and the user later distinguished that fiction from a future HP5E gameplay run.
 
-## Incantation / mechanical log
+This file preserves the verified quest design and activation roll only. It must not mark the quest completed, apply inventory or resources to the live campaign, clear the Undertow Guardian, or establish chronology relative to the unresolved waterfall save.
 
-Source summary: assistant 2026-10-03T18:51:12Z.
+The assistant-authored bedtime-fiction summary is preserved separately at `narrative_archive/RUBBER_DUCK_BEDTIME_FICTION_SUMMARY.md`.
 
-| Roll | Value | Target / recorded result |
-|---|---|---|
-| Control d20 | 13 | DC 16: miss |
-| Execution d20 | 18 | DC 17: success |
-| Effect d12 | 11 | Recorded effect |
-| Strain d6 | 2 | Recorded roll; not an invented current Strain total |
+## Verified quest design
 
-Recorded cast outcome: the quest manifested; onset moved to the first safe, unobserved moment after noon, without retcon. At that source point the quest was ACTIVE and Daunt's actual solution/actions were still UNKNOWN. Cause/origin was hidden in-fiction.
+Source: assistant, 2026-10-03T18:38:22Z.
 
-The separate dice audit d4=1, d6=4, d8=4, d10=3, d12=9, d20=16 was explicitly noncanonical. Do not replace the cast values with it.
+Working title: **The Quacking Below**.
 
-## Recovered quest design
+Designed components:
 
-Assistant summaries at 2026-10-03T18:38:22Z and 18:58:00Z preserve: a map-pinned duck, biting pebble ducks / chamber, brass duck-key, Cross in Harmony bridge, Rubber Warden and trials, dungeon traps, Grand Quackwarden, and a chest containing duck socks and matching underclothes. These are the designed/narrated quest components, not a recovered complete encounter statblock or all verified player choices.
+- a map-pinned rubber duck outside/under the Hogwarts area;
+- pebble ducks leading toward the quest;
+- a quacking / call-and-response bridge;
+- a troll-sized Rubber Warden;
+- a duck dungeon containing a pit, sound door and obstacle hall;
+- a golem-sized Grand Quackwarden;
+- a planned chest reveal involving rubber-duck socks and matching underwear.
 
-## Recovered narrative sequence
+At this source point, exact player choices, solutions, injuries, encounter results and reward disposition were explicitly unresolved.
 
-Source summary: assistant 2026-10-04T01:18:54Z.
+## Verified activation / mechanical record
 
-- Cross in Harmony bridge: call-and-response harmony. Daunt matched the lower duck line and Snaek the upper; the perfect duet stabilized the bridge.
-- Wit trial: opening boxes produced the token.
-- Will trial: rejected false rest / ignorance.
-- Absurdity trial: accepted humor and received a crown token.
+The user performed the activation on 2026-10-03T18:50:51Z using incense, toothpicks, a Spiderquack head-smack and the spoken ending “-quaaaaaaxk-”, then supplied all dice together.
 
-Source summary: assistant 2026-10-04T04:46:54Z.
+Source interpretation: assistant, 2026-10-03T18:51:12Z.
 
-- Daunt returned to Hogwarts with the duck garments.
-- The garments reappeared when removed; the socks eventually appeared on his feet.
-- Cassian noticed the squeak.
-- At 07:15 Daunt had slept approximately 43 minutes and documented observations of the socks; the external cause remained unknown to him.
+| Check | Result |
+|---|---|
+| Control | d20 = 13 vs DC 16 — miss |
+| Execution | d20 = 18 vs DC 17 — success |
+| Effect | d12 = 11 |
+| Strain roll | d6 = 2 |
+| Recorded total | 44 |
 
-This is the surviving narrated aftermath, not proof of an exact current inventory, spell expenditure, XP award, condition, or elapsed main-campaign time.
+Recorded effect:
 
-## Gaps
+- the intended quest content manifested;
+- one additional duck phenomenon remained unspecified;
+- onset moved to the first safe off-screen moment at or after noon;
+- no earlier campaign event was retconned.
 
-No complete original quest log, full statblocks, all player choices, injury/HP changes, spent resources, exact Grand Quackwarden resolution or unique item IDs were recovered. Do not invent them. The relation/order between this narrative and the still-open waterfall fight is not established. Current quest resolution in the gameplay engine is UNKNOWN; narrated return/aftermath is preserved separately.
+The separate dice audit `d4=1, d6=4, d8=4, d10=3, d12=9, d20=16` is explicitly noncanonical and must not replace the activation values above.
 
-Daily duck jokes, the proposed 47-duck infestation, later interviews, charades and the separate yellow-duck bedtime vignette are outside this functional quest record.
+## Gameplay state
+
+- Main-campaign playthrough: NOT PLAYED.
+- Player dungeon decisions: NOT CREATED.
+- Encounter rolls/DCs after activation: NOT CREATED.
+- Mechanical resolution: NOT PLAYED.
+- Earned reward/inventory delta: NONE ESTABLISHED.
+- HP, current Strain, spent resources and XP: NOT APPLICABLE.
+- Relation to Undertow Guardian checkpoint: NOT ESTABLISHED.
+- Exact map pin / numeric POI: UNKNOWN.
+
+Do not reconstruct missing gameplay because no historical gameplay sequence exists to reconstruct. Run it later as fresh play if the user chooses.
+
+## Map boundary
+
+The quest was designed for a duck marker outside/under the Hogwarts area. No exact numeric POI or coordinate was recovered. See `world/maps/QUEST_POINT_CROSSWALK.md`.
+
+## Excluded from this mechanical record
+
+- bedtime-fiction chapters and assistant-authored bridge/trial/aftermath prose;
+- personality interviews and Daunt integration material;
+- daily duck jokes, later interviews, charades and unrelated duck vignettes.

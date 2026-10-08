@@ -12,3 +12,7 @@ These are the original functional map scripts, CSS and 40-POI defaults from 2026
 Open any HTML with its sibling `assets/` folder intact. The map retains localStorage, JSON import/export and reset behavior. Export browser edits to JSON; browser localStorage is not captured by copying the source file.
 
 The troll route 4 → 3 → 14 is an itinerary, not a confirmed troll den or completed search. Later waterfall play outranks these map defaults. `HOG-WF-01` has no verified normalized map pin; never merge it with numeric POI 2 or 3 by guessing.
+
+## Quest-point crosswalk
+
+[Verified four-point quest crosswalk](QUEST_POINT_CROSSWALK.md) records the source-backed relationship between Duck Quest, Cliffside Gallery #3, Forest Edge #14 and HOG-WF-01. Duck and Undertow numeric pins remain unknown. No map export newer than 2026-09-23 was found during the 2026-10-08 source search.
